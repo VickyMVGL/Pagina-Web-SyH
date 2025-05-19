@@ -129,31 +129,31 @@ export default function ServicesPage() {
     {
       name: "Restaurantes y Cafeterías",
       description:
-        "Optimiza la operación completa de tu restaurante con nuestro sistema integrado de gestión, diseñado para simplificar todos tus procesos. Gestiona comandas en sala y para llevar con envío automático a cocina, procesa pagos ágiles con múltiples métodos y división de cuentas, mientras mantienes tu inventario actualizado automáticamente al generar pedidos. ",
+        "gestiona comandas, pagos e inventario en un solo sistema integrado que optimiza toda tu operación. ",
       icon: <Utensils className="h-8 w-8 text-[#1F2245]" />,
     },
     {
       name: "Panaderías y Pastelerías",
       description:
-        "Aplicaciones conformes con HIPAA para la gestión de pacientes, sistemas de telemedicina, y soluciones de análisis de datos clínicos que mejoran la atención al paciente.",
+        "Controla tu panadería al 100%: gestiona producción, inventario y ventas en un sistema integrado que reduce mermas y aumenta ganancias. ",
       icon: <Croissant className="h-8 w-8 text-[#1F2245]" />,
     },
     {
       name: " Clínicas y Consultorios Médicos",
       description:
-        "Plataformas de comercio electrónico, sistemas de gestión de inventario y soluciones omnicanal que mejoran la experiencia de compra y aumentan las ventas.",
+        "Digitaliza tu consultorio: gestiona historias clínicas electrónicas seguras y agenda de citas inteligente en un solo sistema.",
       icon: <Hospital className="h-8 w-8 text-[#1F2245]" />,
     },
     {
       name: "Gimnasios y Centros Deportivos",
       description:
-        "Sistemas de gestión de la cadena de suministro, soluciones IoT para monitoreo de equipos y aplicaciones de optimización de rutas que mejoran la eficiencia operativa.",
+        "Controla todo tu gimnasio en un solo lugar: membresías, programación de clases y seguimiento de pagos. Reduce la morosidad y aumenta la retención con reportes en tiempo real.",
       icon: <Dumbbell className="h-8 w-8 text-[#1F2245]" />,
     },
     {
       name: "Zapaterías y Tiendas de Moda",
       description:
-        "Plataformas de aprendizaje en línea, sistemas de gestión académica y soluciones de análisis de rendimiento estudiantil que transforman la experiencia educativa.",
+        "Controla tu inventario de moda al detalle: gestiona tallas, colores y modelos con precisión, evitando faltantes y maximizando tus ventas.",
       icon: <Shirt className="h-8 w-8 text-[#1F2245]" />,
     },
     {

@@ -4,32 +4,7 @@ import { Target, Eye, Award, Clock, MapPin } from "lucide-react"
 import { FiArrowRight as ArrowRightIcon } from "react-icons/fi"
 
 export default function AboutPage() {
-  const teamMembers = [
-    {
-      name: "Carlos Rodríguez",
-      position: "CEO & Fundador",
-      bio: "Con más de 15 años de experiencia en desarrollo de software y gestión de proyectos tecnológicos. Carlos fundó S&H Software con la visión de crear soluciones innovadoras que transformen empresas.",
-      image: "/placeholder.svg?height=300&width=300",
-    },
-    {
-      name: "Elena Martínez",
-      position: "CTO",
-      bio: "Especialista en arquitectura de software y nuevas tecnologías. Elena lidera nuestro equipo técnico asegurando que implementemos las mejores soluciones tecnológicas para cada cliente.",
-      image: "/placeholder.svg?height=300&width=300",
-    },
-    {
-      name: "Javier Sánchez",
-      position: "Director de Operaciones",
-      bio: "Con experiencia en optimización de procesos y gestión de equipos, Javier asegura que todos nuestros proyectos se entreguen a tiempo y con la máxima calidad.",
-      image: "/placeholder.svg?height=300&width=300",
-    },
-    {
-      name: "Valentina López",
-      position: "Directora de Experiencia de Cliente",
-      bio: "Especialista en UX/UI y experiencia de cliente, María se asegura de que todas nuestras soluciones sean intuitivas y satisfagan las necesidades reales de los usuarios.",
-      image: "/placeholder.svg?height=300&width=300",
-    },
-  ]
+  
 
   const locations = [
     {
@@ -196,46 +171,6 @@ export default function AboutPage() {
 
 
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-[#1F2245] mb-4">NUESTRO EQUIPO</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">
-              Contamos con un equipo de profesionales altamente cualificados y apasionados por la tecnología, dedicados
-              a ofrecer las mejores soluciones a nuestros clientes.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
-                <div className="aspect-square relative">
-                  <Image src={member.image || "/placeholder.svg"} alt={member.name} fill className="object-cover" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-[#1F2245] mb-1">{member.name}</h3>
-                  <p className="text-[#1F2245]/70 font-medium mb-3">{member.position}</p>
-                  <p className="text-gray-600">{member.bio}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center mt-12">
-            <p className="text-gray-600 mb-6">
-              Nuestro equipo está formado por más de 100 profesionales distribuidos en nuestras oficinas de España,
-              México y otros países de América Latina y Europa.
-            </p>
-            <Link href="/contact">
-              <button className="bg-[#1F2245] text-white px-6 py-3 rounded font-medium hover:bg-[#1F2245]/90 transition-colors">
-                ÚNETE A NUESTRO EQUIPO
-              </button>
-            </Link>
           </div>
         </div>
       </section>
