@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { CheckCircle, Users, Code, Database, Server, Shield, LineChart } from "lucide-react"
+import { CheckCircle, Users, Code, Database, Server, Shield, LineChart, KeyRound, HandCoins, ReceiptText, Laptop, Landmark, Utensils, Croissant, Hospital, Dumbbell, Shirt, Building2} from "lucide-react"
 
 export default function ServicesPage() {
   const services = [
@@ -9,7 +9,7 @@ export default function ServicesPage() {
         "Controla y rastrea inventarios en consignación con almacenes virtuales vinculados a clientes, alertas de stock mínimo/máximo y monitoreo en tiempo real.",
       longDescription:
         "Nuestro sistema ofrece un control detallado y automatizado de inventarios en consignación, permitiendo la creación de almacenes virtuales asociados a clientes específicos. Con alertas en tiempo real y seguimiento histórico, garantizas la trazabilidad de cada producto, desde su ingreso hasta su venta final.",
-      icon: <Code className="h-10 w-10 text-[#1F2245]" />,
+      icon: <Server className="h-10 w-10 text-[#1F2245]" />,
       benefits: [
         "Monitorea stock mínimo y máximo con indicadores visuales",
         "Asigna productos a clientes sin perder el rastro de la propiedad",
@@ -25,7 +25,7 @@ export default function ServicesPage() {
         "Maneja transacciones en múltiples monedas, costos de importación y ajustes cambiarios, ideal para negocios con proveedores o clientes globales.",
       longDescription:
         "Desarrollado para empresas con proveedores o clientes globales, este servicio maneja transacciones en cualquier moneda, ajustes cambiarios automáticos y cálculos de costos de importación/exportación, todo integrado con facturación y contabilidad.",
-      icon: <Server className="h-10 w-10 text-[#1F2245]" />,
+      icon: <HandCoins className="h-10 w-10 text-[#1F2245]" />,
       benefits: [
         "Emite documentos en divisas locales o extranjeras",
         "Calcula IGTF, ISLR, Ret IVA y más según regulaciones",
@@ -41,7 +41,7 @@ export default function ServicesPage() {
         "Administra cobros, abonos parciales, historial de movimientos y conciliación bancaria automatizada mediante archivos Excel.",
       longDescription:
         "Administra el ciclo completo de cobranza: desde emisión de facturas y abonos parciales hasta conciliación automática con extractos bancarios. Incluye estados de cuenta personalizados y recordatorios de pago integrados con WhatsApp.",
-      icon: <Database className="h-10 w-10 text-[#1F2245]" />,
+      icon: <ReceiptText className="h-10 w-10 text-[#1F2245]" />,
       benefits: [
         "Aplica pagos parciales en múltiples monedas",
         "Importa movimientos bancarios vía Excel para validación rápida",
@@ -57,7 +57,7 @@ export default function ServicesPage() {
         "Infraestructura en la nube segura y escalable que permite a su empresa adaptarse rápidamente a las cambiantes demandas del mercado.",
       longDescription:
         "Próxima integración con proveedores de facturación digital homologados, combinado con un motor de impuestos ajustable (municipales, nacionales o sectoriales). Ideal para cumplir con obligaciones fiscales sin errores.",
-      icon: <Server className="h-10 w-10 text-[#1F2245]" />,
+      icon: <Laptop className="h-10 w-10 text-[#1F2245]" />,
       benefits: [
         "Próxima validación legal (proceso en curso)",
         "Define impuestos como Ret IVA, tasas municipales, etc",
@@ -73,7 +73,7 @@ export default function ServicesPage() {
         "Soluciones de seguridad integrales para proteger sus activos digitales contra amenazas cibernéticas cada vez más sofisticadas.",
       longDescription:
         "Desde la instalación (remota o presencial) hasta capacitación y soporte post-venta, ofrecemos acompañamiento completo. Incluye migración de datos históricos y 3 meses de asistencia prioritaria.",
-      icon: <Shield className="h-10 w-10 text-[#1F2245]" />,
+      icon: <KeyRound className="h-10 w-10 text-[#1F2245]" />,
       benefits: [
         "Instalación en la nube, on-premise o híbrida",
         "Grupo exclusivo de WhatsApp para respuestas 24/7",
@@ -89,7 +89,7 @@ export default function ServicesPage() {
         "Compara automáticamente los movimientos de tu sistema con los extractos bancarios, soportando archivos Excel.",
       longDescription:
         "Simplifica y agiliza el proceso de conciliación bancaria con nuestra herramienta de comparación automática entre los movimientos de tu sistema y los extractos bancarios. Soporta formatos de archivos Excel y reduce el trabajo manual en un 90%, garantizando precisión en tus registros financieros.",
-      icon: <LineChart className="h-10 w-10 text-[#1F2245]" />,
+      icon: <Landmark className="h-10 w-10 text-[#1F2245]" />,
       benefits: [
         "Carga extractos bancarios en segundos desde tu excel",
         "El sistema sugiere y valida coincidencias entre transacciones",
@@ -129,38 +129,38 @@ export default function ServicesPage() {
     {
       name: "Restaurantes y Cafeterías",
       description:
-        "Gestiona tu cocina como un profesional con nuestro sistema integrado que controla inventario de ingredientes, optimiza pedidos entre sala y cocina, agiliza la facturación electrónica y genera reportes de ventas por platillo y horario. Ademas, lleva las comandas automaticamente desde la mesa hasta la cocina.",
-      icon: <LineChart className="h-8 w-8 text-[#1F2245]" />,
+        "Optimiza la operación completa de tu restaurante con nuestro sistema integrado de gestión, diseñado para simplificar todos tus procesos. Gestiona comandas en sala y para llevar con envío automático a cocina, procesa pagos ágiles con múltiples métodos y división de cuentas, mientras mantienes tu inventario actualizado automáticamente al generar pedidos. ",
+      icon: <Utensils className="h-8 w-8 text-[#1F2245]" />,
     },
     {
       name: "Panaderías y Pastelerías",
       description:
         "Aplicaciones conformes con HIPAA para la gestión de pacientes, sistemas de telemedicina, y soluciones de análisis de datos clínicos que mejoran la atención al paciente.",
-      icon: <Shield className="h-8 w-8 text-[#1F2245]" />,
+      icon: <Croissant className="h-8 w-8 text-[#1F2245]" />,
     },
     {
       name: " Clínicas y Consultorios Médicos",
       description:
         "Plataformas de comercio electrónico, sistemas de gestión de inventario y soluciones omnicanal que mejoran la experiencia de compra y aumentan las ventas.",
-      icon: <Database className="h-8 w-8 text-[#1F2245]" />,
+      icon: <Hospital className="h-8 w-8 text-[#1F2245]" />,
     },
     {
       name: "Gimnasios y Centros Deportivos",
       description:
         "Sistemas de gestión de la cadena de suministro, soluciones IoT para monitoreo de equipos y aplicaciones de optimización de rutas que mejoran la eficiencia operativa.",
-      icon: <Server className="h-8 w-8 text-[#1F2245]" />,
+      icon: <Dumbbell className="h-8 w-8 text-[#1F2245]" />,
     },
     {
       name: "Zapaterías y Tiendas de Moda",
       description:
         "Plataformas de aprendizaje en línea, sistemas de gestión académica y soluciones de análisis de rendimiento estudiantil que transforman la experiencia educativa.",
-      icon: <Users className="h-8 w-8 text-[#1F2245]" />,
+      icon: <Shirt className="h-8 w-8 text-[#1F2245]" />,
     },
     {
       name: "y mas Industrias",
       description:
         "Ya sea una ferretería que necesita controlar miles de SKUs, una farmacia que requiere trazabilidad de medicamentos o una tienda de conveniencia que maneja alta rotación, nuestro sistema se adapta para darte el control total de tu operación con reportes en tiempo real y procesos optimizados.",
-      icon: <Code className="h-8 w-8 text-[#1F2245]" />,
+      icon: <Building2 className="h-8 w-8 text-[#1F2245]" />,
     },
   ]
 

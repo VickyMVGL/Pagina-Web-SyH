@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Shield, Award, BarChart3, Code, Database, LineChart, Users, CheckCircle } from "lucide-react"
+import { Shield, Award, BarChart3, KeyRound, CheckCircle, Server, HandCoins, ReceiptText, Laptop, Landmark } from "lucide-react"
 import { AiOutlineArrowRight as ArrowRightIcon } from "react-icons/ai"
 
 export default function Home() {
@@ -136,37 +136,37 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
                 title: " Gestión Avanzada de Inventarios en Consignación",
                 description:
                   "Controla y rastrea inventarios en consignación con almacenes virtuales vinculados a clientes, alertas de stock mínimo/máximo y monitoreo en tiempo real.",
-                icon: <Code className="h-10 w-10 text-[#1F2245]" />,
+                icon: <Server className="h-10 w-10 text-[#1F2245]" />,
               },
               {
                 title: "Sistema Multimoneda para Operaciones Internacionales",
                 description:
                   "Maneja transacciones en múltiples monedas, costos de importación y ajustes cambiarios, ideal para negocios con proveedores o clientes globales.",
-                icon: <Database className="h-10 w-10 text-[#1F2245]" />,
+                icon: <HandCoins className="h-10 w-10 text-[#1F2245]" />,
               },
               {
                 title: "Módulo de Cuentas por Cobrar (CXC)",
                 description:
                   "Administra cobros, abonos parciales, historial de movimientos y conciliación bancaria automatizada mediante archivos Excel.",
-                icon: <Users className="h-10 w-10 text-[#1F2245]" />,
+                icon: <ReceiptText className="h-10 w-10 text-[#1F2245]" />,
               },
               {
                 title: "Facturación Electrónica y Gestión de Impuestos Parametrizables",
                 description:
                   "Próximamente integrado con proveedores de facturación electrónica, con impuestos 100% parametrizables (municipales, nacionales, etc.).",
-                icon: <LineChart className="h-10 w-10 text-[#1F2245]" />,
+                icon: <Laptop className="h-10 w-10 text-[#1F2245]" />,
               },
               {
                 title: 'Soporte Técnico e Implementación "Llave en Mano"',
                 description:
                   "Instalación presencial o remota, migración de datos y 3 meses de soporte gratuito post-implementación con respuestas inmediatas vía WhatsApp.",
-                icon: <Shield className="h-10 w-10 text-[#1F2245]" />,
+                icon: <KeyRound className="h-10 w-10 text-[#1F2245]" />,
               },
               {
                 title: "Módulo de Conciliación Bancaria Automatizada",
                 description:
                   "Compara automáticamente los movimientos de tu sistema con los extractos bancarios, soportando archivos Excel.",
-                icon: <BarChart3 className="h-10 w-10 text-[#1F2245]" />,
+                icon: <Landmark className="h-10 w-10 text-[#1F2245]" />,
               },
             ].map((service, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex">

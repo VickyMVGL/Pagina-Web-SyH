@@ -1,5 +1,7 @@
 import { Mail, Phone, MapPin, Clock } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { AiOutlineYoutube } from "react-icons/ai";
+import { FaFacebookF, FaInstagram, } from 'react-icons/fa';
 
 export default function ContactPage() {
   return (
@@ -44,8 +46,14 @@ export default function ContactPage() {
             {/* Contact Form */}
             <div>
               <h2 className="text-2xl font-bold text-[#1F2245] mb-6">ENVÍENOS UN MENSAJE</h2>
-              <form className="space-y-4">
-                <div className="grid gap-4 sm:grid-cols-2">
+              <form 
+  className="space-y-4"
+  action="https://formsubmit.co/info@syhcomputacion.com"
+  method="POST"
+>
+  {/* Puedes agregar este campo oculto para evitar spam */}
+  <input type="hidden" name="_captcha" value="false" />
+  <div className="grid gap-4 sm:grid-cols-2">
                   <div className="space-y-2">
                     <label htmlFor="first-name" className="text-sm font-medium text-gray-700">
                       Nombre
@@ -53,6 +61,7 @@ export default function ContactPage() {
                     <input
                       type="text"
                       id="first-name"
+                      name="first-name"
                       placeholder="Ingrese su nombre"
                       className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1F2245] focus:border-transparent"
                       required
@@ -65,6 +74,7 @@ export default function ContactPage() {
                     <input
                       type="text"
                       id="last-name"
+                      name="last-name"
                       placeholder="Ingrese su apellido"
                       className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1F2245] focus:border-transparent"
                       required
@@ -78,6 +88,7 @@ export default function ContactPage() {
                   <input
                     type="text"
                     id="company"
+                    name="company"
                     placeholder="Nombre de su empresa"
                     className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1F2245] focus:border-transparent"
                   />
@@ -89,6 +100,7 @@ export default function ContactPage() {
                   <input
                     type="email"
                     id="email"
+                    name="email"
                     placeholder="Ingrese su correo electrónico"
                     className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1F2245] focus:border-transparent"
                     required
@@ -101,49 +113,24 @@ export default function ContactPage() {
                   <input
                     type="tel"
                     id="phone"
+                    name="phone"
                     placeholder="Ingrese su número de teléfono"
                     className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1F2245] focus:border-transparent"
                   />
                 </div>
-                <div className="space-y-2">
-                  <label htmlFor="service" className="text-sm font-medium text-gray-700">
-                    Servicio de Interés
-                  </label>
-                  <select
-                    id="service"
-                    className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1F2245] focus:border-transparent"
-                  >
-                    <option value="">Seleccione un servicio</option>
-                    <option value="custom-software">Desarrollo de Software a Medida</option>
-                    <option value="web-app">Aplicaciones Web</option>
-                    <option value="mobile-app">Aplicaciones Móviles</option>
-                    <option value="cloud">Soluciones Cloud</option>
-                    <option value="security">Ciberseguridad</option>
-                    <option value="data-ai">Análisis de Datos e IA</option>
-                    <option value="consulting">Consultoría Tecnológica</option>
-                    <option value="other">Otro</option>
-                  </select>
-                </div>
+                
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium text-gray-700">
                     Mensaje
                   </label>
                   <textarea
                     id="message"
+                    name="message"
                     placeholder="Cuéntenos sobre su proyecto o consulta"
                     rows={4}
                     className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1F2245] focus:border-transparent"
                     required
                   ></textarea>
-                </div>
-                <div className="flex items-start">
-                  <input type="checkbox" id="privacy" className="mt-1 mr-2" required />
-                  <label htmlFor="privacy" className="text-sm text-gray-600">
-                    He leído y acepto la{" "}
-                    <a href="#" className="text-[#1F2245] hover:underline">
-                      política de privacidad
-                    </a>
-                  </label>
                 </div>
                 <button
                   type="submit"
@@ -151,7 +138,7 @@ export default function ContactPage() {
                 >
                   ENVIAR MENSAJE
                 </button>
-              </form>
+</form>
             </div>
 
             {/* Contact Information */}
@@ -168,14 +155,10 @@ export default function ContactPage() {
                   <CardContent>
                     <CardDescription className="text-base text-gray-700">
                       <a href="mailto:info@shsoftware.com" className="hover:text-[#1F2245]">
-                        info@shsoftware.com
+                        info@syhcomputacion.com
                       </a>
                     </CardDescription>
-                    <CardDescription className="text-base text-gray-700 mt-2">
-                      <a href="mailto:ventas@shsoftware.com" className="hover:text-[#1F2245]">
-                        ventas@shsoftware.com
-                      </a>
-                    </CardDescription>
+                    
                   </CardContent>
                 </Card>
                 <Card className="border border-gray-200">
@@ -187,13 +170,8 @@ export default function ContactPage() {
                   </CardHeader>
                   <CardContent>
                     <CardDescription className="text-base text-gray-700">
-                      <a href="tel:+15551234567" className="hover:text-[#1F2245]">
-                        +1 (555) 123-4567
-                      </a>
-                    </CardDescription>
-                    <CardDescription className="text-base text-gray-700 mt-2">
-                      <a href="tel:+15557654321" className="hover:text-[#1F2245]">
-                        +1 (555) 765-4321
+                      <a href="https://wa.link/i2nkf0" className="hover:text-[#1F2245]">
+                        +58 (424) 440- 41 15
                       </a>
                     </CardDescription>
                   </CardContent>
@@ -209,9 +187,11 @@ export default function ContactPage() {
                     <CardDescription className="text-base text-gray-700">
                       Oficina Principal:
                       <br />
-                      123 Tech Park, Suite 456
                       <br />
-                      San Francisco, CA 94105
+                      Conjunto Residencial El Remanso, Manzana D-4 (Dentro del Centro Medico El Remanso)
+                      <br />
+                      <br />
+                      San Diego, Carabobo
                     </CardDescription>
                   </CardContent>
                 </Card>
@@ -224,9 +204,9 @@ export default function ContactPage() {
                   </CardHeader>
                   <CardContent>
                     <CardDescription className="text-base text-gray-700">
-                      Lunes - Viernes: 9am - 6pm
+                      Lunes - Viernes: 8am - 5pm
                       <br />
-                      Sábado: 10am - 2pm
+                      Sábado: Cerrado
                       <br />
                       Domingo: Cerrado
                     </CardDescription>
@@ -238,11 +218,27 @@ export default function ContactPage() {
               <div className="mt-8">
                 <h3 className="text-xl font-bold text-[#1F2245] mb-4">NUESTRA UBICACIÓN</h3>
                 <div className="aspect-video w-full rounded-lg bg-gray-200 overflow-hidden border border-gray-300">
-                  <div className="w-full h-full bg-gray-100 flex items-center justify-center">
-                    <p className="text-gray-600">
-                      Mapa interactivo - sería reemplazado con una integración de mapa real
-                    </p>
-                  </div>
+                  <iframe
+                    title="Ubicación SyH Computación"
+                    src="https://www.google.com/maps?q=Conjunto+Residencial+El+Remanso,+Manzana+D-4,+San+Diego,+Carabobo&output=embed"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="w-full h-full"
+                  ></iframe>
+                </div>
+                <div className="mt-2 text-center">
+                  <a
+                    href="https://www.google.com/maps/place/Centro+Medico+y+Profesional+el+Remanso/@10.2613134,-67.9633272,17z/data=!3m1!4b1!4m6!3m5!1s0x8e805d4472ec0447:0xca5f564ecaf2f69a!8m2!3d10.2613134!4d-67.9607523!16s%2Fg%2F11tp9zn02s?entry=tts&g_ep=EgoyMDI0MDYyNi4wKgBIAVAD"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#1F2245] underline hover:text-[#1F2245]/80"
+                  >
+                    Ver en Google Maps
+                  </a>
                 </div>
               </div>
 
@@ -251,80 +247,24 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-[#1F2245] mb-4">SÍGANOS EN REDES SOCIALES</h3>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href="https://www.facebook.com/syhsoftware/"
                     className="w-10 h-10 rounded-full bg-[#1F2245] flex items-center justify-center text-white hover:bg-[#1F2245]/80 transition-colors"
+                    aria-label="Facebook"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                    </svg>
+                    <FaFacebookF size={18} />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/syhsoftware/"
                     className="w-10 h-10 rounded-full bg-[#1F2245] flex items-center justify-center text-white hover:bg-[#1F2245]/80 transition-colors"
+                    aria-label="Instagram"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
-                    </svg>
+                    <FaInstagram size={18} />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.youtube.com/@tusyhsoftware7187"
                     className="w-10 h-10 rounded-full bg-[#1F2245] flex items-center justify-center text-white hover:bg-[#1F2245]/80 transition-colors"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                    </svg>
-                  </a>
-                  <a
-                    href="#"
-                    className="w-10 h-10 rounded-full bg-[#1F2245] flex items-center justify-center text-white hover:bg-[#1F2245]/80 transition-colors"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                      <rect x="2" y="9" width="4" height="12"></rect>
-                      <circle cx="4" cy="4" r="2"></circle>
-                    </svg>
+                    <AiOutlineYoutube size={18} />
                   </a>
                 </div>
               </div>
