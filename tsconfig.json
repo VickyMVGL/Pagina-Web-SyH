@@ -22,6 +22,12 @@
       "@/*": ["./*"]
     }
   },
+  "module.exports": {
+    "darkMode": ["class"],
+  },
+  "dependencies": {
+  "next-themes": "^0.2.1" // or similar version
+  },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
