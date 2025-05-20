@@ -10,7 +10,7 @@ export default function Home() {
       <section className="relative bg-[#1F2245]">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero-banner.jpg"
+            src="/images/banner.png"
             alt="S&H Software Banner"
             width={1600}
             height={800}
@@ -94,15 +94,19 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
                 <ArrowRightIcon className="ml-2 h-4 w-4" />
               </Link>
             </div>
-            <div className="bg-pink-200 rounded-lg p-8 relative">
-              <Image
-                src="/placeholder.svg?height=400&width=500"
-                alt="Sobre S&H Software"
-                width={500}
-                height={400}
-                className="rounded-lg object-cover z-10 relative"
-              />
-              <div className="absolute bg-[#1F2245]/10 w-full h-full top-4 left-4 rounded-lg -z-0"></div>
+            <div className="relative flex justify-center items-center">
+              <div className="w-full">
+                <Image
+                  src="/images/SYH.jpg"
+                  alt="Sobre S&H Software"
+                  width={500}
+                  height={500}
+                  className="rounded-lg object-cover shadow-xl w-full h-auto max-h-[350px] md:max-h-[400px]"
+                  sizes="(max-width: 768px) 100vw, 700px"
+                  priority
+                />
+                <div className="absolute bg-[#1F2245]/10 w-full h-full top-4 left-4 rounded-lg -z-0"></div>
+              </div>
             </div>
           </div>
         </div>

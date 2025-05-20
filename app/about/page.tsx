@@ -95,15 +95,19 @@ export default function AboutPage() {
                 Hoy, somos reconocidos como aliados estratégicos en la digitalización de negocios, pero mantenemos intacto nuestro ADN de empresa cercana. Cada logro, desde implementaciones complejas hasta la creación de nuestra suite modular de software, ha sido posible gracias a relaciones duraderas con clientes que nos han permitido crecer junto a ellos. Nuestra historia es la de una constante adaptación: hemos abrazado tendencias emergentes, superado crisis tecnológicas y ampliado nuestro equipo, siempre guiados por la misión de hacer que la innovación sea tangible para emprendedores y empresas. El futuro nos encuentra preparados para seguir escribiendo este legado, con la misma pasión que tuvimos al reparar aquel primer computador.
               </p>
             </div>
-            <div className="bg-pink-200 rounded-lg p-8 relative">
-              <Image
-                src="/placeholder.svg?height=400&width=500"
-                alt="Historia de S&H Software"
-                width={500}
-                height={400}
-                className="rounded-lg object-cover z-10 relative"
-              />
-              <div className="absolute bg-[#1F2245]/10 w-full h-full top-4 left-4 rounded-lg -z-0"></div>
+            <div className="relative flex justify-center items-center">
+              <div className="w-full">
+                <Image
+                  src="/images/equipo.png"
+                  alt="Historia de S&H Software"
+                  width={700}
+                  height={400}
+                  className="rounded-lg object-cover shadow-xl w-full h-auto max-h-[350px] md:max-h-[400px]"
+                  sizes="(max-width: 768px) 100vw, 700px"
+                  priority
+                />
+                <div className="absolute bg-[#1F2245]/10 w-full h-full top-4 left-4 rounded-lg -z-0"></div>
+              </div>
             </div>
           </div>
         </div>

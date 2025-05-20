@@ -17,7 +17,7 @@ export default function ServicesPage() {
         "Genera análisis de rotación, caducidad y rentabilidad por ítem",
         "Adaptable a negocios con múltiples ubicaciones o modelos B2B/B2C",
       ],
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/gestion_inventarios.jpg?height=300&width=500",
     },
     {
       title: "Sistema Multimoneda para Operaciones Internacionales",
@@ -33,7 +33,7 @@ export default function ServicesPage() {
         "Registra gastos logísticos y aranceles en la valoración de inventario",
         "Visualiza ganancias y pérdidas por fluctuaciones cambiarias",
       ],
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/multimoneda.jpg?height=300&width=500",
     },
     {
       title: "Módulo de Cuentas por Cobrar (CXC) Avanzado",
@@ -49,7 +49,7 @@ export default function ServicesPage() {
         "Notificaciones automáticas para gestionar cartera vencida",
         "Configura plazos, intereses y descuentos según políticas de tu empresa",
       ],
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/cobrar_1.jpg?height=300&width=500",
     },
     {
       title: "Facturación Electrónica y Gestión de Impuestos Parametrizables",
@@ -65,7 +65,7 @@ export default function ServicesPage() {
         "Diseña facturas con logo y campos personalizados",
         "Envía comprobantes automáticamente al cliente vía email/WhatsApp",
       ],
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/cobrar_2.jpg?height=300&width=500",
     },
     {
       title: 'Soporte Técnico e Implementación "Llave en Mano"',
@@ -81,7 +81,7 @@ export default function ServicesPage() {
         "Traslado de datos desde sistemas legacy sin pérdida",
         "Agrega módulos (Nómina, Contabilidad) cuando lo necesites",
       ],
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/computadora.jpg?height=300&width=500",
     },
     {
       title: "Módulo de Conciliación Bancaria Automatizada",
@@ -97,7 +97,7 @@ export default function ServicesPage() {
         "Mantén un registro detallado de todas las conciliaciones realizadas",
         "Compatible con cuentas bancarias en diferentes divisas",
       ],
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/banco.jpg?height=300&width=500",
     },
   ]
 
