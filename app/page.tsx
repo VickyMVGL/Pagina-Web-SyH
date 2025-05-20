@@ -198,20 +198,19 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-[#1F2245] mb-4">¿POR QUÉ ELEGIRNOS?</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Nos diferenciamos por nuestro enfoque centrado en el cliente, nuestra experiencia técnica y nuestro
-              compromiso con la excelencia en cada proyecto que emprendemos.
+              Nos diferenciamos por nuestra amplia experiencia, nuestro soporte técnico de alta calidad y nuestra flexibilidad para adaptarnos a las necesidades únicas de cada cliente. 
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-xl font-bold text-[#1F2245] mb-4">Experiencia y Conocimiento</h3>
+              <h3 className="text-xl font-bold text-[#1F2245] mb-4">Experiencia Comprobada y Crecimiento Continuo</h3>
               <ul className="space-y-3">
                 {[
-                  "Más de 13 años de experiencia en el sector tecnológico",
-                  "Equipo de profesionales altamente cualificados y certificados",
-                  "Conocimiento profundo de diversas industrias y sus necesidades específicas",
-                  "Metodologías ágiles que garantizan resultados rápidos y de calidad",
+                  "+20 años en el mercado acompañando a negocios como el tuyo",
+                  "Portafolio diverso de clientes satisfechos que avalan nuestra trayectoria",
+                  "Soluciones evolutivas que se adaptan a las necesidades cambiantes del mercado",
+                  "Compromiso a largo plazo, creciendo junto a tu empresa",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2">
                     <CheckCircle className="h-5 w-5 text-[#1F2245] mt-0.5 flex-shrink-0" />
@@ -222,13 +221,13 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-xl font-bold text-[#1F2245] mb-4">Enfoque Centrado en el Cliente</h3>
+              <h3 className="text-xl font-bold text-[#1F2245] mb-4">Soporte Capacitado y Soluciones Reales</h3>
               <ul className="space-y-3">
                 {[
-                  "Soluciones personalizadas adaptadas a sus necesidades específicas",
-                  "Comunicación transparente y constante durante todo el proyecto",
-                  "Soporte continuo y mantenimiento post-implementación",
-                  "Compromiso con su satisfacción y éxito a largo plazo",
+                  "Equipo técnico especializado con formación constante en las últimas tecnologías",
+                  "Respuestas efectivas, sin improvisaciones, gracias a protocolos establecidos",
+                  "Canales de soporte ágiles (presenciales, remotos y distribuidores certificados)",
+                  "Soporte en español con comprensión de regulaciones locales",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2">
                     <CheckCircle className="h-5 w-5 text-[#1F2245] mt-0.5 flex-shrink-0" />
@@ -239,13 +238,13 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-xl font-bold text-[#1F2245] mb-4">Tecnología de Vanguardia</h3>
+              <h3 className="text-xl font-bold text-[#1F2245] mb-4">Sistema 100% Estable y Multimoneda</h3>
               <ul className="space-y-3">
                 {[
-                  "Utilizamos las últimas tecnologías y mejores prácticas del mercado",
-                  "Soluciones escalables que crecen con su negocio",
-                  "Arquitecturas robustas y seguras que protegen sus datos",
-                  "Innovación constante para mantenerle a la vanguardia del sector",
+                  "Plataforma robusta sin fallos en versiones o procesos críticos",
+                  "Operaciones en múltiples monedas (ej: $ y Bs.) con tasas actualizables",
+                  "Reportes fiscales precisos, incluyendo libros parafiscales en Bs",
+                  "Impresión fiscal compatible con requerimientos legales locales",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2">
                     <CheckCircle className="h-5 w-5 text-[#1F2245] mt-0.5 flex-shrink-0" />
@@ -256,13 +255,13 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-xl font-bold text-[#1F2245] mb-4">Resultados Comprobados</h3>
+              <h3 className="text-xl font-bold text-[#1F2245] mb-4">Transparencia y Trazabilidad en Cada Proceso</h3>
               <ul className="space-y-3">
                 {[
-                  "Historial probado de proyectos exitosos en diversos sectores",
-                  "Testimonios y referencias de clientes satisfechos",
-                  "Métricas de rendimiento que demuestran el valor de nuestras soluciones",
-                  "Reconocimientos y premios de la industria por nuestra excelencia",
+                  "Registro detallado de todas las operaciones con su tasa cambiaria",
+                  "Auditoría completa para cumplir con normativas fiscales",
+                  "Historial accesible que facilita la conciliación bancaria",
+                  "Declaración de impuestos a través de nuestra aplicación",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2">
                     <CheckCircle className="h-5 w-5 text-[#1F2245] mt-0.5 flex-shrink-0" />
@@ -349,19 +348,19 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
           <div className="max-w-3xl mx-auto space-y-4">
             {[
               {
-                question: "¿Qué metodología utilizan para el desarrollo de software?",
+                question: "¿El sistema admite operaciones con productos importados y múltiples monedas?",
                 answer:
-                  "Utilizamos metodologías ágiles como Scrum y Kanban, adaptadas a las necesidades específicas de cada proyecto. Esto nos permite entregar valor de forma incremental, mantener una comunicación constante con el cliente y adaptarnos rápidamente a los cambios.",
+                  "Sí, nuestro sistema está diseñado para manejar productos importados y operaciones en múltiples monedas (como USD, Bs. o EUR). Puedes registrar costos según la moneda de compra y automatizar cálculos de impuestos como IGTF, ISLR o Ret IVA. Además, el sistema actualiza tasas cambiarias y genera reportes financieros en la moneda que elijas, cumpliendo con normativas locales e internacionales.",
               },
               {
-                question: "¿Cómo garantizan la calidad de sus soluciones?",
+                question: "¿Está homologado para facturación electrónica con el SENIAT?",
                 answer:
-                  "Implementamos un riguroso proceso de control de calidad que incluye pruebas unitarias, de integración, funcionales y de rendimiento. Además, realizamos revisiones de código periódicas y utilizamos herramientas automatizadas para detectar y corregir posibles problemas antes de la entrega.",
+                  "Actualmente, estamos en proceso de homologación con el SEMAT y tenemos agenda la segunda revisión para avanzar en esta integración. Mientras tanto, el sistema permite configurar impuestos parametrizables (municipales, nacionales, etc.) y generar facturas tradicionales. Una vez completada la homologación, ofreceremos facturación electrónica con validez legal.",
               },
               {
-                question: "¿Ofrecen servicios de mantenimiento post-implementación?",
+                question: "¿Cómo funciona el soporte postventa y la implementación?",
                 answer:
-                  "Sí, ofrecemos diversos planes de mantenimiento y soporte adaptados a las necesidades de cada cliente. Estos incluyen actualizaciones de seguridad, corrección de errores, mejoras de rendimiento y asistencia técnica continua para garantizar que su solución siga funcionando de manera óptima.",
+                  "Tras la instalación (remota o presencial), brindamos 3 meses de soporte gratuito vía WhatsApp para resolver dudas inmediatas. La implementación incluye migración de datos desde sistemas anteriores y capacitación para usuarios. Posteriormente, el soporte técnico tiene un costo de $30/hora. Además, ofrecemos demostraciones remotas para que conozcas el sistema antes de adquirirlo.",
               },
             ].map((faq, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">

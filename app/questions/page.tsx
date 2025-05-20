@@ -5,14 +5,14 @@ import { FiArrowRight as ArrowRightIcon } from "react-icons/fi"
 export default function QuestionsPage() {
   const generalFaqs = [
     {
-      question: "¿Qué industrias atienden?",
+      question: "¿A qué industrias atienden con su sistema?",
       answer:
-        "Atendemos a una amplia gama de industrias, incluyendo finanzas y banca, salud y ciencias de la vida, retail y e-commerce, manufactura y logística, educación, y servicios profesionales. Nuestro equipo tiene experiencia trabajando con empresas de todos los tamaños, desde startups hasta organizaciones de nivel empresarial, adaptando nuestras soluciones a las necesidades específicas de cada sector.",
+        "Atendemos a empresas de diversos sectores como comercio (mayorista y minorista), distribución, servicios profesionales, tecnología, manufactura y metalmecánica. Nuestro sistema se adapta fácilmente a las necesidades de cada industria, automatizando procesos clave como facturación, cuentas por cobrar y pagar, conciliaciones bancarias, control de caja, operaciones multimoneda y cumplimiento fiscal.",
     },
     {
-      question: "¿Cuánto tiempo toma un proyecto de software típico?",
+      question: "¿El sistema es apto para empresas con múltiples usuarios y sucursales?",
       answer:
-        "Los plazos del proyecto varían según la complejidad y los requisitos. Un proyecto simple puede tomar de 2 a 3 meses, mientras que soluciones más complejas pueden tomar más de 6 meses. Durante nuestra consulta inicial, realizamos un análisis detallado de sus necesidades y proporcionamos un cronograma realista basado en las especificaciones de su proyecto, con hitos claros y entregables definidos.",
+        "Totalmente. Es multiusuario con roles personalizables (ej: administrador, vendedor, auditor) y soporta operaciones en la nube para acceso desde cualquier ubicación. Ideal para empresas con varias sucursales que necesiten centralizar información y mantener controles diferenciados.",
     },
     {
       question: "¿Proporcionan soporte continuo después de completar el proyecto?",
