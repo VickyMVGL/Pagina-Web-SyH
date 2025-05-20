@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Shield, Award, BarChart3, KeyRound, CheckCircle, Server, HandCoins, ReceiptText, Laptop, Landmark } from "lucide-react"
+import { Award, KeyRound, CheckCircle, Server, HandCoins, ReceiptText, Laptop, Landmark, CircleFadingArrowUp, CircleUserRound} from "lucide-react"
 import { AiOutlineArrowRight as ArrowRightIcon } from "react-icons/ai"
 
 export default function Home() {
@@ -43,13 +43,12 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
             <div className="bg-[#1F2245] text-white p-8 text-center rounded-lg">
               <div className="flex justify-center mb-4">
                 <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center">
-                  <Shield className="h-8 w-8 text-[#1F2245]" />
+                  <CircleFadingArrowUp className="h-8 w-8 text-[#1F2245]" />
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-3">CONFIANZA</h3>
+              <h3 className="text-xl font-bold mb-3">Innovación</h3>
               <p className="text-gray-300">
-                Saber se estruturamos todas as nossas atividades de forma a garantir aos nossos clientes um trabalho
-                íntegro e de qualidade. Construimos relaciones basadas en la confianza mutua y la transparencia.
+                En SYH Computación, la innovación es el motor que impulsa nuestras soluciones. Nos dedicamos a explorar y aplicar tecnologías emergentes para ofrecer herramientas digitales de vanguardia que resuelvan problemas reales.
               </p>
             </div>
             <div className="bg-[#1F2245] text-white p-8 text-center rounded-lg">
@@ -58,22 +57,20 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
                   <Award className="h-8 w-8 text-[#1F2245]" />
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-3">CREDIBILIDAD</h3>
+              <h3 className="text-xl font-bold mb-3">Compromiso</h3>
               <p className="text-gray-300">
-                Uma qualidade que se conquista com um trabalho sério, responsável e com os melhores profissionais
-                voltados a todos os nossos clientes. Nuestro historial de éxito respalda nuestra reputación.
+                Nuestro compromiso se refleja en cada interacción con el cliente. No solo entregamos soluciones técnicas, sino que construimos relaciones a largo plazo basadas en la confianza y la atención personalizada.
               </p>
             </div>
             <div className="bg-[#1F2245] text-white p-8 text-center rounded-lg">
               <div className="flex justify-center mb-4">
                 <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center">
-                  <BarChart3 className="h-8 w-8 text-[#1F2245]" />
+                  <CircleUserRound className="h-8 w-8 text-[#1F2245]" />
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-3">ÉTICA</h3>
+              <h3 className="text-xl font-bold mb-3">Integridad</h3>
               <p className="text-gray-300">
-                Um pilar fundamental baseado em nossos valores morais, princípios, condutas e padrões, definindo
-                critérios para a manipulação de informações de nossos clientes. Actuamos con integridad en todo momento.
+                Actuamos con transparencia, ética y responsabilidad en todos nuestros procesos. La honestidad guía nuestras decisiones, desde la cotización de servicios hasta la implementación de sistemas.
               </p>
             </div>
           </div>
@@ -87,18 +84,10 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
             <div>
               <h2 className="text-3xl font-bold text-[#1F2245] mb-4">QUIÉNES SOMOS</h2>
               <p className="text-gray-600 mb-4">
-                S&H Software es una empresa líder en el desarrollo de soluciones tecnológicas innovadoras, fundada en
-                2010 con la misión de transformar la manera en que las empresas utilizan la tecnología para crecer y
-                prosperar.
+                En SYH Computación somos un equipo apasionado por la tecnología, dedicado a ofrecer soluciones digitales innovadoras que transforman negocios y simplifican procesos. Con más de dos décadas de experiencia, hemos evolucionado desde un taller de soporte técnico hasta convertirnos en aliados estratégicos para empresas y profesionales, brindando desde desarrollo de software a medida hasta consultoría tecnológica integral.
               </p>
               <p className="text-gray-600 mb-4">
-                Contamos con un equipo de más de 100 profesionales altamente cualificados y apasionados por la
-                tecnología, distribuidos en nuestras oficinas de España, México y otros países de América Latina y
-                Europa.
-              </p>
-              <p className="text-gray-600 mb-6">
-                Nuestra experiencia abarca diversos sectores, desde finanzas y salud hasta retail y manufactura, lo que
-                nos permite ofrecer soluciones adaptadas a las necesidades específicas de cada industria.
+                Lo que nos distingue es nuestra combinación de expertise técnico y servicio cercano. No solo implementamos sistemas, sino que construimos relaciones de confianza, escuchando las necesidades únicas de cada cliente para ofrecer soluciones personalizadas.
               </p>
               <Link href="/about" className="inline-flex items-center text-[#1F2245] font-medium hover:underline">
                 Conozca más sobre nosotros

@@ -277,8 +277,8 @@ export default function ServicesPage() {
 
           <div className="max-w-4xl mx-auto">
             <div className="relative">
-              {/* Timeline line */}
-              <div className="absolute left-0 md:left-1/2 top-0 h-full w-1 bg-[#1F2245]/20 transform md:translate-x-0"></div>
+              {/* Timeline line solo visible en md+ */}
+              <div className="hidden md:block absolute left-1/2 top-0 h-full w-1 bg-[#1F2245]/20 transform -translate-x-1/2"></div>
 
               <div className="space-y-12">
                 {[
@@ -321,44 +321,29 @@ export default function ServicesPage() {
                 ].map((step, index) => (
                   <div
                     key={index}
-                    className={`relative flex items-start ${
-                      index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                    } flex-col md:flex-row`}
+                    className={`
+                      relative flex flex-col md:flex-row items-center
+                    `}
                   >
-                    <div className="flex-1 md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0 pl-12 md:pl-0">
-                      {index % 2 === 0 ? (
-                        <div>
-                          <div className="text-[#1F2245] font-bold text-4xl mb-2 opacity-30">{step.number}</div>
-                          <h3 className="text-xl font-bold text-[#1F2245] mb-2">{step.title}</h3>
-                          <p className="text-gray-600">{step.description}</p>
+                    {/* Número centrado en la línea en md+ */}
+                    <div className="flex-shrink-0 z-10">
+                      <div className="relative flex justify-center md:absolute md:left-1/2 md:transform md:-translate-x-1/2">
+                        <div className="flex items-center justify-center w-10 h-10 rounded-full bg-[#1F2245] text-white font-bold text-lg shadow-md">
+                          {step.number}
                         </div>
-                      ) : (
-                        <div className="md:hidden">
-                          <div className="text-[#1F2245] font-bold text-4xl mb-2 opacity-30">{step.number}</div>
-                          <h3 className="text-xl font-bold text-[#1F2245] mb-2">{step.title}</h3>
-                          <p className="text-gray-600">{step.description}</p>
-                        </div>
-                      )}
-                    </div>
-                    <div className="absolute left-0 md:left-1/2 top-0 transform md:-translate-x-1/2 flex items-center justify-center">
-                      <div className="w-8 h-8 rounded-full bg-[#1F2245] flex items-center justify-center z-10">
-                        <span className="text-white font-bold">{index + 1}</span>
                       </div>
                     </div>
-                    <div className="flex-1 md:w-1/2 md:pl-12 md:text-left">
-                      {index % 2 === 1 ? (
-                        <div>
-                          <div className="text-[#1F2245] font-bold text-4xl mb-2 opacity-30">{step.number}</div>
-                          <h3 className="text-xl font-bold text-[#1F2245] mb-2">{step.title}</h3>
-                          <p className="text-gray-600">{step.description}</p>
-                        </div>
-                      ) : (
-                        <div className="md:hidden">
-                          <div className="text-[#1F2245] font-bold text-4xl mb-2 opacity-30">{step.number}</div>
-                          <h3 className="text-xl font-bold text-[#1F2245] mb-2">{step.title}</h3>
-                          <p className="text-gray-600">{step.description}</p>
-                        </div>
-                      )}
+                    {/* Contenido */}
+                    <div className="mt-4 md:mt-0 flex-1 w-full md:grid md:grid-cols-2 md:gap-8">
+                      <div className={`
+    ${index % 2 === 0 ? "md:col-start-1 md:text-right md:pr-12" : "md:col-start-2 md:text-left md:pl-12"}
+    w-full text-center md:text-inherit
+  `}>
+                        <h3 className="text-xl font-bold text-[#1F2245] mb-2">{step.title}</h3>
+                        <p className="text-gray-600">{step.description}</p>
+                      </div>
+                      {/* Espacio vacío para alternar lados en escritorio */}
+                      <div className="hidden md:block"></div>
                     </div>
                   </div>
                 ))}

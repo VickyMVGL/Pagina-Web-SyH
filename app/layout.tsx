@@ -1,4 +1,7 @@
-import type React from "react"
+'use client'
+
+import React from "react"
+import { useState } from "react"
 import { Inter } from "next/font/google"
 import Link from "next/link"
 
@@ -7,17 +10,13 @@ import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata = {
-  title: "S&H Software - Soluciones de Software Innovadoras",
-  description:
-    "S&H Software ofrece soluciones tecnológicas de vanguardia para ayudar a su empresa a prosperar en la era digital.",
-}
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const [menuOpen, setMenuOpen] = React.useState(false)
+
   return (
     <html lang="es">
       <body className={`${inter.className} min-h-screen flex flex-col`}>
@@ -28,6 +27,7 @@ export default function RootLayout({
               <Link href="/" className="font-bold text-2xl text-[#1F2245]">
                 S&H<span className="text-gray-500">Software</span>
               </Link>
+              {/* Desktop Nav */}
               <nav className="hidden md:flex gap-8">
                 <Link href="/" className="text-sm font-medium hover:text-[#1F2245] transition-colors">
                   INICIO
@@ -42,13 +42,63 @@ export default function RootLayout({
                   CONTACTO
                 </Link>
               </nav>
+              {/* Mobile Hamburger */}
+              <button
+                className="md:hidden flex items-center px-2 py-1 border rounded text-[#1F2245] border-[#1F2245] focus:outline-none"
+                onClick={() => setMenuOpen(!menuOpen)}
+                aria-label="Abrir menú"
+              >
+                <svg className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
               <Link
                 href="/contact"
-                className="bg-[#1F2245] text-white px-4 py-2 text-sm font-medium rounded hover:bg-[#1F2245]/90 transition-colors"
+                className="hidden md:inline bg-[#1F2245] text-white px-4 py-2 text-sm font-medium rounded hover:bg-[#1F2245]/90 transition-colors"
               >
                 Distribuidores
               </Link>
             </div>
+            {/* Mobile Nav */}
+            {menuOpen && (
+              <nav className="md:hidden bg-white border-t px-4 pb-4">
+                <Link
+                  href="/"
+                  className="block py-2 text-sm font-medium hover:text-[#1F2245] transition-colors"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  INICIO
+                </Link>
+                <Link
+                  href="/about"
+                  className="block py-2 text-sm font-medium hover:text-[#1F2245] transition-colors"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  SOBRE S&H
+                </Link>
+                <Link
+                  href="/services"
+                  className="block py-2 text-sm font-medium hover:text-[#1F2245] transition-colors"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  SERVICIOS
+                </Link>
+                <Link
+                  href="/contact"
+                  className="block py-2 text-sm font-medium hover:text-[#1F2245] transition-colors"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  CONTACTO
+                </Link>
+                <Link
+                  href="/contact"
+                  className="block mt-2 bg-[#1F2245] text-white px-4 py-2 text-sm font-medium rounded hover:bg-[#1F2245]/90 transition-colors"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Distribuidores
+                </Link>
+              </nav>
+            )}
           </header>
 
           {children}

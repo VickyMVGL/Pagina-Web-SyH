@@ -30,39 +30,39 @@ export default function AboutPage() {
   const timeline = [
     {
       year: "2010",
-      title: "Fundación",
+      title: "Fundación como Taller de Soporte Técnico",
       description:
-        "S&H Software fue fundada por Carlos Rodríguez con la visión de crear soluciones tecnológicas innovadoras para empresas.",
+        "Iniciamos como un local especializado en reparación de equipos, ofreciendo soluciones inmediatas a problemas tecnológicos básicos en nuestra comunidad.",
     },
     {
       year: "2012",
-      title: "Expansión",
+      title: "Primer Sistema Empresarial Personalizado",
       description:
-        "Abrimos nuestra primera oficina internacional en Ciudad de México y ampliamos nuestro equipo a 25 profesionales.",
+        "Desarrollamos nuestro primer software a medida para una PYME local, marcando el inicio de nuestra especialización en soluciones digitales integrales.",
     },
     {
       year: "2015",
-      title: "Innovación",
+      title: "Expansión a Consultoría Tecnológica",
       description:
-        "Lanzamos nuestra plataforma de desarrollo ágil que revolucionó nuestra forma de entregar proyectos a clientes.",
+        "Incorporamos servicios de consultoría estratégica, ayudando a clientes a migrar procesos manuales a plataformas digitales eficientes.",
     },
     {
       year: "2018",
-      title: "Reconocimiento",
+      title: "Lanzamiento de la Suite Modular",
       description:
-        "Recibimos el premio a la Empresa Tecnológica del Año por nuestra contribución a la transformación digital.",
+        "Creamos sistemas modulares (Administrativo, Nómina, Contabilidad) permitiendo a los clientes escalar sus herramientas según sus necesidades.",
     },
     {
       year: "2020",
-      title: "Crecimiento",
+      title: "Integración con Facturación Electrónica",
       description:
-        "Alcanzamos los 100 empleados y expandimos nuestras operaciones a 5 países en América Latina y Europa.",
+        "Adaptamos nuestros sistemas a normativas fiscales digitales, facilitando a los clientes el cumplimiento de obligaciones tributarias.",
     },
     {
       year: "2023",
-      title: "Actualidad",
+      title: "Reconocimiento como Aliado Tecnológico Regional",
       description:
-        "Continuamos innovando y creciendo, con un enfoque en soluciones de inteligencia artificial y cloud computing.",
+        "Superamos los 500 clientes activos, consolidándonos como referentes en transformación digital para PYMES en la región.",
     },
   ]
 
@@ -89,20 +89,10 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-[#1F2245] mb-6">NUESTRA HISTORIA</h2>
               <p className="text-gray-600 mb-4">
-                S&H Software nació en 2010 con una visión clara: transformar la manera en que las empresas utilizan la
-                tecnología para crecer y prosperar. Desde nuestros humildes comienzos como una pequeña consultora con
-                apenas 5 empleados, hemos crecido hasta convertirnos en una empresa líder en el sector con presencia
-                internacional.
+                SYH Computación nació hace más de una década como un modesto taller de soporte técnico, fundado por un grupo de apasionados por la informática con una visión clara: democratizar el acceso a soluciones tecnológicas confiables. Lo que comenzó como un servicio local de reparación de equipos y asesoría básica, pronto evolucionó gracias a la demanda creciente de transformación digital. Nuestro primer hito fue el desarrollo de un sistema empresarial personalizado para una PYME local, proyecto que marcó el inicio de nuestra especialización en software a medida y nos impulsó a ampliar nuestro portafolio hacia consultoría tecnológica y soluciones integrales.
               </p>
               <p className="text-gray-600 mb-4">
-                A lo largo de nuestra trayectoria, hemos ayudado a cientos de empresas de todos los tamaños y sectores a
-                implementar soluciones tecnológicas que han transformado sus operaciones y les han permitido alcanzar
-                nuevos niveles de éxito.
-              </p>
-              <p className="text-gray-600">
-                Nuestro compromiso con la excelencia, la innovación y la satisfacción del cliente nos ha permitido
-                construir relaciones duraderas con nuestros clientes, muchos de los cuales nos han acompañado desde
-                nuestros inicios.
+                Hoy, somos reconocidos como aliados estratégicos en la digitalización de negocios, pero mantenemos intacto nuestro ADN de empresa cercana. Cada logro, desde implementaciones complejas hasta la creación de nuestra suite modular de software, ha sido posible gracias a relaciones duraderas con clientes que nos han permitido crecer junto a ellos. Nuestra historia es la de una constante adaptación: hemos abrazado tendencias emergentes, superado crisis tecnológicas y ampliado nuestro equipo, siempre guiados por la misión de hacer que la innovación sea tangible para emprendedores y empresas. El futuro nos encuentra preparados para seguir escribiendo este legado, con la misma pasión que tuvimos al reparar aquel primer computador.
               </p>
             </div>
             <div className="bg-pink-200 rounded-lg p-8 relative">
@@ -138,9 +128,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-[#1F2245] mb-4 text-center">MISIÓN</h3>
               <p className="text-gray-600 text-center">
-                Proporcionar soluciones tecnológicas innovadoras y de alta calidad que impulsen el crecimiento y la
-                eficiencia de nuestros clientes, contribuyendo a su transformación digital y ayudándoles a alcanzar sus
-                objetivos de negocio.
+               Ofrecer soluciones tecnológicas innovadoras que impulsen la productividad y el éxito de nuestros clientes a través de servicios personalizados, desde desarrollo de software hasta consultoría tecnológica. Simplificando procesos y potenciando negocios, siempre con un enfoque centrado en las necesidades reales de empresas y profesionales.
               </p>
             </div>
 
@@ -152,9 +140,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-[#1F2245] mb-4 text-center">VISIÓN</h3>
               <p className="text-gray-600 text-center">
-                Ser reconocidos globalmente como líderes en el desarrollo de soluciones tecnológicas innovadoras,
-                estableciendo nuevos estándares de excelencia en la industria y siendo el socio tecnológico preferido
-                por empresas que buscan transformar sus negocios a través de la tecnología.
+                Visualizamos un futuro donde nuestras soluciones integrales sean sinónimo de excelencia, innovación e impacto positivo en la comunidad empresarial. Aspiramos a ser líderes regionales en transformación digital, reconocidos por nuestra capacidad de combinar tecnología de vanguardia con un servicio humano.
               </p>
             </div>
 
@@ -166,7 +152,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-[#1F2245] mb-4 text-center">VALORES</h3>
               <p className="text-gray-600 text-center">
-              Nuestra empresa se guía por la excelencia, la innovación y la integridad, buscando siempre superar estándares y crear valor con ética. Trabajamos en equipo con clientes y socios, comprometidos en cumplir promesas y superar expectativas con dedicación.
+              Nos guían la innovación constante, el compromiso con el cliente, la integridad en cada acción y la búsqueda de excelencia. Creemos en la colaboración, la inclusión digital y el poder de la tecnología para crear oportunidades, manteniendo siempre relaciones transparentes y soluciones éticas.
               </p>
 
 
@@ -177,45 +163,55 @@ export default function AboutPage() {
 
       {/* Timeline */}
       <section className="py-16 bg-gray-100">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-[#1F2245] mb-4">NUESTRA TRAYECTORIA</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">
-              Un vistazo a los momentos clave que han definido nuestra historia y crecimiento a lo largo de los años.
-            </p>
-          </div>
+  <div className="container mx-auto px-4">
+    <div className="text-center mb-16">
+      <h2 className="text-3xl font-bold text-[#1F2245] mb-4">NUESTRA TRAYECTORIA</h2>
+      <p className="text-gray-600 max-w-3xl mx-auto">
+        Un vistazo a los momentos clave que han definido nuestra historia y crecimiento a lo largo de los años.
+      </p>
+    </div>
 
-          <div className="relative">
-            {/* Timeline line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-[#1F2245]/20"></div>
+    <div className="relative">
+      {/* Timeline line solo visible en md+ */}
+      <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-[#1F2245]/20"></div>
 
-            <div className="space-y-12">
-              {timeline.map((item, index) => (
-                <div
-                  key={index}
-                  className={`relative flex items-center ${
-                    index % 2 === 0 ? "flex-row" : "flex-row-reverse"
-                  } md:flex-row`}
-                >
-                  <div className="flex-1 md:w-1/2"></div>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center">
-                    <div className="w-12 h-12 rounded-full bg-[#1F2245] flex items-center justify-center z-10">
-                      <Clock className="h-6 w-6 text-white" />
-                    </div>
-                  </div>
-                  <div className="flex-1 md:w-1/2 md:pl-12 p-4">
-                    <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                      <span className="text-sm font-bold text-[#1F2245]/70">{item.year}</span>
-                      <h3 className="text-xl font-bold text-[#1F2245] mb-2">{item.title}</h3>
-                      <p className="text-gray-600">{item.description}</p>
-                    </div>
-                  </div>
+      <div className="flex flex-col gap-12">
+        {timeline.map((item, index) => (
+          <div
+            key={index}
+            className={`
+              flex flex-col items-center md:grid md:grid-cols-2 md:gap-8 relative
+              ${index % 2 === 0 ? "" : "md:flex-row-reverse"}
+            `}
+          >
+            {/* Línea e ícono */}
+            <div className="flex md:justify-center md:items-center md:col-span-2 md:row-span-1 w-full md:w-auto">
+              <div className="relative flex flex-col items-center w-full md:w-auto">
+                {/* Línea vertical solo en mobile */}
+                <div className={`block md:hidden w-1 h-6 bg-[#1F2245]/20 ${index === 0 ? "invisible" : ""}`}></div>
+                {/* Icono */}
+                <div className="w-12 h-12 rounded-full bg-[#1F2245] flex items-center justify-center z-10 mb-2 md:mb-0">
+                  <Clock className="h-6 w-6 text-white" />
                 </div>
-              ))}
+                {/* Línea vertical solo en mobile */}
+                <div className={`block md:hidden w-1 h-6 bg-[#1F2245]/20 ${index === timeline.length - 1 ? "invisible" : ""}`}></div>
+              </div>
+            </div>
+            {/* Contenido */}
+            <div className={`
+              bg-white p-6 rounded-lg shadow-sm border border-gray-200 mt-4 md:mt-0 w-full
+              ${index % 2 === 0 ? "md:col-start-2 md:text-left" : "md:col-start-1 md:text-right"}
+              text-center md:text-inherit
+            `}>
+              <h3 className="text-xl font-bold text-[#1F2245] mb-2">{item.title}</h3>
+              <p className="text-gray-600">{item.description}</p>
             </div>
           </div>
-        </div>
-      </section>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Locations */}
       <section className="py-16 bg-white">
