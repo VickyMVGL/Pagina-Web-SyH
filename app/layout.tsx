@@ -65,10 +65,14 @@ export default function RootLayout({
                   </p>
                   <p className="mb-2">
                   Si lo prefieres puedes hacer tus consultas por teléfono:</p>
-                  <p className="text-xl font-bold">(+57) 3084-5500</p>
+                  <p className="text-xl font-bold">(+58) 424 440 41 15</p>
                 </div>
                 <div>
-                  <form className="space-y-4">
+                  <form
+                    className="space-y-4"
+                    action="https://formsubmit.co/info@syhcomputacion.com"
+                    method="POST"
+                  >
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <label htmlFor="name" className="sr-only">
@@ -77,6 +81,7 @@ export default function RootLayout({
                         <input
                           type="text"
                           id="name"
+                          name="name"
                           placeholder="Nombre*"
                           className="w-full px-4 py-2 rounded text-white"
                           required
@@ -89,6 +94,7 @@ export default function RootLayout({
                         <input
                           type="email"
                           id="email"
+                          name="email"
                           placeholder="E-mail*"
                           className="w-full px-4 py-2 rounded text-white"
                           required
@@ -102,6 +108,7 @@ export default function RootLayout({
                       <input
                         type="tel"
                         id="phone"
+                        name="phone"
                         placeholder="Telefono*"
                         className="w-full px-4 py-2 rounded text-white"
                         required
@@ -113,9 +120,11 @@ export default function RootLayout({
                       </label>
                       <textarea
                         id="message"
+                        name="message"
                         placeholder="Mensaje*"
                         rows={4}
                         className="w-full px-4 py-2 rounded text-white"
+                        required
                       ></textarea>
                     </div>
                     <button
