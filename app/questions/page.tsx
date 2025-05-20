@@ -15,50 +15,50 @@ export default function QuestionsPage() {
         "Totalmente. Es multiusuario con roles personalizables (ej: administrador, vendedor, auditor) y soporta operaciones en la nube para acceso desde cualquier ubicación. Ideal para empresas con varias sucursales que necesiten centralizar información y mantener controles diferenciados.",
     },
     {
-      question: "¿Proporcionan soporte continuo después de completar el proyecto?",
+      question: "¿Está homologado para facturación electrónica con el SENIAT?",
       answer:
-        "Sí, ofrecemos diversos planes de mantenimiento y soporte adaptados a las necesidades de cada cliente. Estos incluyen actualizaciones de seguridad, corrección de errores, mejoras de rendimiento, asistencia técnica y capacitación continua. Nuestro objetivo es establecer relaciones a largo plazo con nuestros clientes, asegurando que sus soluciones sigan funcionando de manera óptima y evolucionando según sus necesidades cambiantes.",
+        "Actualmente, estamos en proceso de homologación con el SENIAT y tenemos agenda la segunda revisión para avanzar en esta integración. Mientras tanto, el sistema permite configurar impuestos parametrizables (municipales, nacionales, etc.) y generar facturas tradicionales. Una vez completada la homologación, ofreceremos facturación electrónica con validez legal.",
     },
   ]
 
   const processFaqs = [
     {
-      question: "¿Cómo manejan la gestión de proyectos y la comunicación?",
+      question: "¿Cual es el proceso de implementación del sistema?",
       answer:
-        "Seguimos metodologías ágiles como Scrum y Kanban, con ciclos de desarrollo iterativos que permiten una entrega incremental de valor. Asignamos un gerente de proyecto dedicado que sirve como su principal punto de contacto y coordina todos los aspectos del proyecto. Utilizamos herramientas colaborativas que le dan visibilidad completa del progreso, y mantenemos reuniones regulares para garantizar la alineación y abordar cualquier inquietud de manera oportuna.",
+        "Nuestro proceso de implementación está diseñado para garantizar una transición fluida a tu nuevo sistema de gestión. Comienza con una instalación flexible (remota o presencial), seguida de la migración segura de tus datos históricos desde sistemas anteriores como Excel.",
     },
     {
-      question: "¿Qué metodología utilizan para el desarrollo de software?",
+      question: "¿Ofrecen capacitación sobre el sistema?",
       answer:
-        "Utilizamos principalmente metodologías ágiles como Scrum y Kanban, adaptadas a las necesidades específicas de cada proyecto. Este enfoque nos permite entregar valor de forma incremental, mantener una comunicación constante con el cliente, y adaptarnos rápidamente a los cambios en los requisitos. Trabajamos en sprints de 1-2 semanas, con demostraciones regulares del producto para obtener retroalimentación temprana y frecuente.",
+        "¡Claro! Incluimos capacitación personalizada para que tu equipo domine todas las funcionalidades, desde el control de inventario hasta la facturación, con manuales detallados y sesiones prácticas adaptadas a tus procesos.",
     },
     {
-      question: "¿Cómo garantizan la calidad de sus soluciones?",
+      question: "¿Cómo funciona el soporte postventa?",
       answer:
-        "Implementamos un riguroso proceso de control de calidad que incluye pruebas unitarias, de integración, funcionales y de rendimiento. Utilizamos prácticas como la integración continua y el despliegue continuo (CI/CD) para detectar problemas temprano. Además, realizamos revisiones de código periódicas, auditorías de seguridad y utilizamos herramientas automatizadas para mantener altos estándares de calidad en todo momento.",
+        "Nuestro soporte postventa está pensado para brindarte tranquilidad y continuidad en el uso del sistema. Durante los primeros 3 meses, ofrecemos asistencia técnica gratuita prioritaria a través de WhatsApp, con respuestas rápidas para resolver dudas técnicas, configuraciones especiales o cualquier inconveniente crítico que pueda surgir. Una vez finalizado este período, puedes optar por soporte técnico adicional a un costo de $30/hora.",
     },
     {
-      question: "¿Cómo manejan los cambios en los requisitos del proyecto?",
+      question: "¿Cuanto tiempo tarla la implementacion del sistema?",
       answer:
-        "Entendemos que los requisitos pueden evolucionar durante un proyecto. Nuestro enfoque ágil está diseñado para adaptarse a estos cambios de manera eficiente. Tenemos un proceso estructurado de gestión de cambios que incluye la evaluación del impacto en el cronograma y presupuesto, la priorización de cambios, y la implementación planificada para minimizar interrupciones. Mantenemos una comunicación transparente sobre las implicaciones de cualquier cambio solicitado.",
+        "El tiempo de implementación varía según la complejidad de tu operación, pero trabajamos para minimizar cualquier interrupción en tu trabajo diario, asegurando que todo esté configurado y funcionando correctamente desde el primer día.",
     },
   ]
 
   const technicalFaqs = [
     {
-      question: "¿En qué tecnologías se especializan?",
+      question: "¿Qué tan estable es la aplicación y qué garantías tengo como cliente?",
       answer:
-        "Nuestro equipo es competente en una amplia gama de tecnologías modernas. Para desarrollo frontend, trabajamos con React, Angular, Vue.js y Next.js. En backend, utilizamos Node.js, Python, Java, .NET y PHP. Para desarrollo móvil, dominamos Swift, Kotlin, React Native y Flutter. También tenemos experiencia en cloud computing (AWS, Azure, Google Cloud), bases de datos (SQL, NoSQL), DevOps, y tecnologías emergentes como blockchain e inteligencia artificial.",
+        "Nuestra aplicación es 100% estable en todas sus versiones y procesos. Llevamos más de 20 años en el mercado, creciendo junto a nuestros clientes y adaptando continuamente nuestras soluciones a sus necesidades. Esta trayectoria garantiza confianza, respaldo técnico y un producto maduro que funciona de forma eficiente en entornos empresariales exigentes.",
     },
     {
-      question: "¿Cómo garantizan la seguridad del software que desarrollan?",
+      question: "¿El sistema es modular? ¿Puedo adquirir solo los módulos que necesite?",
       answer:
-        "La seguridad está integrada en todo nuestro proceso de desarrollo. Seguimos el principio de 'seguridad por diseño', implementando mejores prácticas como OWASP Top 10. Realizamos análisis de código estático, pruebas de penetración, y evaluaciones de vulnerabilidad regulares. Nuestros desarrolladores reciben formación continua en seguridad, y nos mantenemos actualizados sobre las últimas amenazas y contramedidas para proteger sus aplicaciones y datos.",
+        "Sí, nuestro sistema es modular. Puedes adquirir solo el módulo Administrativo (inventario, ventas, CXC), o combinarlo con Nómina y Contabilidad. También ofrecemos el paquete Business, que incluye los tres módulos para una gestión integral. Cada módulo se adapta a tus necesidades y presupuesto.",
     },
     {
-      question: "¿Pueden trabajar con nuestros sistemas existentes e integrar nuevas soluciones?",
+      question: "¿Qué funcionalidades ofrece el módulo de Cuentas por Cobrar (CXC)?",
       answer:
-        "Sí, tenemos amplia experiencia en la integración de nuevas soluciones con sistemas existentes. Comenzamos con un análisis detallado de su infraestructura actual para entender las dependencias y puntos de integración. Utilizamos APIs, middleware, microservicios y otras técnicas para crear integraciones robustas que preservan sus inversiones existentes mientras añaden nuevas capacidades. Nuestro enfoque minimiza las interrupciones en sus operaciones durante la transición.",
+        "El módulo de CXC permite gestionar cobros, abonos parciales y estados de cuenta detallados por cliente. Soporta transacciones en multimoneda y ofrece herramientas para conciliación bancaria semiautomática mediante archivos Excel. También integra recordatorios de pago y generación de documentos fiscales, optimizando la gestión de cartera y reduciendo la morosidad.",
     },
     {
       question: "¿Cómo abordan la escalabilidad en sus soluciones?",
@@ -69,24 +69,24 @@ export default function QuestionsPage() {
 
   const businessFaqs = [
     {
-      question: "¿Cuál es su modelo de precios?",
+      question: "¿Cuál es el costo inicial del sistema y qué incluye?",
       answer:
-        "Ofrecemos varios modelos de precios flexibles para adaptarnos a diferentes tipos de proyectos y presupuestos. Estos incluyen: 1) Precio fijo: para proyectos con alcance bien definido, 2) Tiempo y materiales: para proyectos que requieren mayor flexibilidad, 3) Retainer: para servicios continuos de desarrollo y soporte. Proporcionamos propuestas detalladas con desglose de costos transparente, sin cargos ocultos, y podemos personalizar un modelo que se ajuste a sus necesidades específicas.",
+        "El sistema tiene un modelo de suscripción anual, con un costo inicial de $480 + IVA por la licencia del módulo Administrativo (inventario, ventas, CXC). Este precio no incluye instalación ni viáticos (si son requeridos presencialmente). La implementación básica cubre: migración de datos, configuración inicial y capacitación. Los módulos adicionales (Nómina, Contabilidad) o el paquete completo Business tienen costos variables que podemos ajustar según tus necesidades.",
     },
     {
-      question: "¿Ofrecen servicios de consultoría?",
+      question: "¿Ofrecen prueba gratuita del sistema?",
       answer:
-        "Sí, proporcionamos servicios de consultoría tecnológica para ayudar a las empresas a tomar decisiones informadas sobre su estrategia digital. Nuestros servicios incluyen evaluaciones tecnológicas, planificación de transformación digital, auditorías de sistemas, arquitectura de soluciones, y roadmapping tecnológico. Nuestros consultores combinan experiencia técnica con conocimiento de negocio para ofrecer recomendaciones prácticas y accionables que generan valor real para su empresa.",
+        "Actualmente no ofrecemos una versión de prueba autogestionable, pero realizamos demostraciones remotas personalizadas sin costo, donde nuestro equipo te guiará por todas las funcionalidades relevantes para tu negocio. Esto te permite evaluar si el sistema se adapta a tus procesos antes de comprometerte.",
     },
     {
-      question: "¿Qué hace que S&H Software sea diferente de otras empresas de desarrollo?",
+      question: "¿Qué nivel de control y seguridad ofrece el sistema?",
       answer:
-        "Nos diferenciamos por varios factores clave: 1) Enfoque consultivo: nos tomamos el tiempo para entender profundamente su negocio antes de proponer soluciones, 2) Equipo de élite: contamos con desarrolladores senior con amplia experiencia en diversas industrias, 3) Calidad excepcional: mantenemos estándares rigurosos en cada línea de código que escribimos, 4) Transparencia total: proporcionamos visibilidad completa del progreso y los costos, 5) Compromiso con resultados: nos enfocamos en entregar valor de negocio real, no solo código. Nos vemos como socios estratégicos en su éxito, no simplemente como proveedores.",
+        "Ofrecemos un alto nivel de control gracias a funcionalidades como cuadre de caja por usuario, conciliaciones bancarias automáticas y registro detallado de cada operación. Además, cada transacción es trazable, permitiendo auditorías internas y supervisión por parte del área administrativa. Esto garantiza seguridad operativa y transparencia en todos los procesos.",
     },
     {
-      question: "¿Ofrecen capacitación para los usuarios del software que desarrollan?",
+      question: "¿Cómo puedo saber si el sistema es adecuado para mi tipo de negocio?",
       answer:
-        "Sí, la capacitación es una parte integral de nuestro proceso de implementación. Ofrecemos programas de formación personalizados que incluyen sesiones presenciales, webinars, documentación detallada, videos tutoriales y materiales de referencia. Adaptamos la capacitación según los diferentes perfiles de usuarios (administradores, usuarios finales, etc.) y podemos proporcionar formación adicional cuando se implementan nuevas funcionalidades o se incorporan nuevos miembros al equipo.",
+        "Nuestro equipo comercial está listo para asesorarte y evaluar las necesidades específicas de tu empresa. Gracias a su diseño modular y flexible, el sistema se adapta a distintos tipos de negocio y sectores. Puedes agendar una demostración sin compromiso para conocer cómo funciona y cómo puede ayudarte a optimizar tu gestión empresarial.",
     },
   ]
 
