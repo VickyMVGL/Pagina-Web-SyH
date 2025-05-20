@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { CheckCircle, Users, Code, Database, Server, Shield, LineChart, KeyRound, HandCoins, ReceiptText, Laptop, Landmark, Utensils, Croissant, Hospital, Dumbbell, Shirt, Building2} from "lucide-react"
+import { CheckCircle, Server, KeyRound, HandCoins, ReceiptText, Laptop, Landmark, Utensils, Croissant, Hospital, Dumbbell, Shirt, Building2} from "lucide-react"
 
 export default function ServicesPage() {
   const services = [
@@ -101,29 +101,6 @@ export default function ServicesPage() {
     },
   ]
 
-  const testimonials = [
-    {
-      quote:
-        "S&H Software transformó nuestros procesos de negocio con su solución de software personalizada. Su equipo fue profesional, receptivo y entregó más allá de nuestras expectativas. La aplicación que desarrollaron ha aumentado nuestra eficiencia operativa en un 35% y nos ha permitido ofrecer un mejor servicio a nuestros clientes.",
-      name: "Sara Jiménez",
-      title: "CTO, TechCorp Inc.",
-      image: "/placeholder.svg?height=80&width=80",
-    },
-    {
-      quote:
-        "La aplicación móvil desarrollada por S&H Software ha aumentado significativamente la participación de nuestros clientes. Su atención al detalle y experiencia en experiencia de usuario no tiene igual. Desde el lanzamiento de la app, hemos visto un aumento del 40% en las ventas móviles y un incremento del 25% en la retención de clientes.",
-      name: "Miguel Chen",
-      title: "Director de Marketing, Retail Solutions",
-      image: "/placeholder.svg?height=80&width=80",
-    },
-    {
-      quote:
-        "Trabajar con S&H Software en nuestra migración a la nube fue perfecto. La experiencia de su equipo nos ahorró tiempo y dinero mientras mejoraba el rendimiento de nuestro sistema. La transición fue fluida, sin interrupciones en nuestras operaciones, y ahora disfrutamos de una infraestructura más segura, escalable y con un 30% de ahorro en costos operativos.",
-      name: "David Rodríguez",
-      title: "Gerente de TI, FinServe Group",
-      image: "/placeholder.svg?height=80&width=80",
-    },
-  ]
 
   const industries = [
     {
@@ -349,45 +326,6 @@ export default function ServicesPage() {
                 ))}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="w-full py-16 bg-gray-100">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold text-[#1F2245]">LO QUE DICEN NUESTROS CLIENTES</h2>
-              <p className="max-w-[900px] text-gray-600 md:text-xl">
-                No se fíe solo de nuestra palabra. Esto es lo que nuestros clientes dicen sobre nuestros servicios.
-              </p>
-            </div>
-          </div>
-          <div className="grid gap-8 md:grid-cols-3">
-            {testimonials.map((testimonial, index) => (
-              <div
-                key={index}
-                className="bg-white p-8 rounded-lg border border-gray-200 shadow-sm flex flex-col items-center text-center"
-              >
-                <div className="mb-4">
-                  <div className="w-20 h-20 rounded-full overflow-hidden">
-                    <Image
-                      src={testimonial.image || "/placeholder.svg"}
-                      alt={testimonial.name}
-                      width={80}
-                      height={80}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
-                </div>
-                <blockquote className="mb-4 text-gray-600 italic">{testimonial.quote}</blockquote>
-                <div>
-                  <p className="font-bold text-[#1F2245]">{testimonial.name}</p>
-                  <p className="text-sm text-gray-500">{testimonial.title}</p>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>

@@ -1,7 +1,6 @@
 'use client'
 
 import React from "react"
-import { useState } from "react"
 import { Inter } from "next/font/google"
 import Link from "next/link"
 
@@ -53,7 +52,7 @@ export default function RootLayout({
                 </svg>
               </button>
               <Link
-                href="/contact"
+                href="https://panel-dist.syhcomputacion.com/public/"
                 className="hidden md:inline bg-[#1F2245] text-white px-4 py-2 text-sm font-medium rounded hover:bg-[#1F2245]/90 transition-colors"
               >
                 Distribuidores
@@ -91,7 +90,7 @@ export default function RootLayout({
                   CONTACTO
                 </Link>
                 <Link
-                  href="/contact"
+                  href="https://panel-dist.syhcomputacion.com/public/"
                   className="block mt-2 bg-[#1F2245] text-white px-4 py-2 text-sm font-medium rounded hover:bg-[#1F2245]/90 transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >

@@ -267,66 +267,6 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#1F2245] mb-4">LO QUE DICEN NUESTROS CLIENTES</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Nuestros clientes son nuestro mejor aval. Descubra lo que opinan sobre nuestros servicios y cómo hemos
-              contribuido a su éxito.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                quote:
-                  "S&H Software transformó completamente nuestros procesos internos con una solución a medida que aumentó nuestra productividad en un 40%. Su equipo entendió perfectamente nuestras necesidades y entregó un producto que superó todas nuestras expectativas.",
-                name: "María Rodríguez",
-                title: "Directora de Operaciones, Grupo Financiero XYZ",
-                image: "/placeholder.svg?height=80&width=80",
-              },
-              {
-                quote:
-                  "La aplicación móvil desarrollada por S&H Software ha revolucionado nuestra forma de interactuar con los clientes. Desde su implementación, hemos visto un aumento del 60% en la retención de usuarios y un 35% en las ventas a través de la app.",
-                name: "Javier López",
-                title: "Director de Marketing, Retail Innovations",
-                image: "/placeholder.svg?height=80&width=80",
-              },
-              {
-                quote:
-                  "Elegimos a S&H Software para nuestra migración a la nube y fue la mejor decisión que pudimos tomar. El proceso fue fluido, sin interrupciones en nuestras operaciones, y ahora disfrutamos de una infraestructura más segura, escalable y con un 30% de ahorro en costos.",
-                name: "Carlos Martínez",
-                title: "CIO, HealthTech Solutions",
-                image: "/placeholder.svg?height=80&width=80",
-              },
-            ].map((testimonial, index) => (
-              <div
-                key={index}
-                className="bg-white p-8 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center"
-              >
-                <div className="mb-4">
-                  <div className="w-20 h-20 rounded-full overflow-hidden">
-                    <Image
-                      src={testimonial.image || "/placeholder.svg"}
-                      alt={testimonial.name}
-                      width={80}
-                      height={80}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
-                </div>
-                <blockquote className="mb-4 text-gray-600 italic">&quot;{testimonial.quote}&quot;</blockquote>
-                <div>
-                  <p className="font-bold text-[#1F2245]">{testimonial.name}</p>
-                  <p className="text-sm text-gray-500">{testimonial.title}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* FAQ Preview */}
       <section className="py-16 bg-gray-100">

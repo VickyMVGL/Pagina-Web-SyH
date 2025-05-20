@@ -217,7 +217,7 @@ export default function AboutPage() {
   </div>
 </section>
 
-      {/* Locations */}
+      {/* Locations
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -250,7 +250,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="py-16 bg-[#1F2245] text-white">
