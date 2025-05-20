@@ -283,39 +283,39 @@ export default function ServicesPage() {
               <div className="space-y-12">
                 {[
                   {
-                    title: "Descubrimiento y Análisis",
+                    title: "Primer contacto y consulta inicial",
                     description:
-                      "Comenzamos comprendiendo profundamente sus necesidades, objetivos y desafíos. Realizamos un análisis detallado de sus procesos actuales y definimos los requisitos específicos del proyecto.",
+                      "Al contactarnos, analizamos tus necesidades en una consulta inicial para ofrecerte exactamente lo que tu negocio requiere. Construimos soluciones sobre bases de confianza.",
                     number: "01",
                   },
                   {
-                    title: "Diseño y Planificación",
+                    title: "Diagnóstico y propuesta personalizada",
                     description:
-                      "Desarrollamos una arquitectura sólida y diseñamos la solución, creando prototipos y wireframes para visualizar el producto final. Establecemos un plan detallado con hitos claros y entregables específicos.",
+                      "Tras comprender tus necesidades, evaluamos tu infraestructura tecnológica para crear una propuesta personalizada. Entregamos un plan personalizado con plazos y costos definidos, sin sorpresas.",
                     number: "02",
                   },
                   {
-                    title: "Desarrollo e Implementación",
+                    title: "Diseño y desarrollo",
                     description:
-                      "Nuestro equipo de desarrolladores construye la solución utilizando metodologías ágiles, con ciclos iterativos que permiten ajustes y mejoras continuas. Mantenemos una comunicación constante durante todo el proceso.",
+                      "Una vez aprobada la propuesta, nuestro equipo de expertos comienza a trabajar en el desarrollo del sistema o aplicación diseñada a medida para tu negocio.",
                     number: "03",
                   },
                   {
-                    title: "Pruebas y Control de Calidad",
+                    title: "Pruebas exhaustivas",
                     description:
                       "Realizamos pruebas exhaustivas para garantizar que la solución cumple con todos los requisitos funcionales y de rendimiento. Identificamos y corregimos cualquier problema antes de la entrega.",
                     number: "04",
                   },
                   {
-                    title: "Despliegue y Capacitación",
+                    title: "Implementación y entrega",
                     description:
-                      "Implementamos la solución en su entorno de producción y proporcionamos capacitación completa a sus equipos para garantizar una adopción exitosa y maximizar el valor de la inversión.",
+                      "Llevamos la solución al entorno del cliente, ya sea configurando hardware, instalando software o integrando sistemas. Acompañamos la implementación con capacitación personalizada para que el cliente y su equipo puedan utilizar la solución de manera efectiva desde el primer día.",
                     number: "05",
                   },
                   {
-                    title: "Soporte y Mantenimiento",
+                    title: "Soporte y seguimiento continuo",
                     description:
-                      "Ofrecemos servicios continuos de soporte y mantenimiento para garantizar que su solución siga funcionando de manera óptima, con actualizaciones regulares y mejoras basadas en sus necesidades cambiantes.",
+                      "Ofrecemos soporte técnico continuo, actualizaciones y mantenimiento para garantizar que el sistema funcione sin problemas y se adapte a las necesidades cambiantes del cliente. Estamos siempre disponibles para resolver dudas y optimizar el rendimiento.",
                     number: "06",
                   },
                 ].map((step, index) => (
