@@ -3,6 +3,7 @@
 import React from "react"
 import { Inter } from "next/font/google"
 import Link from "next/link"
+import Image from "next/image"
 
 import { ThemeProvider } from "@/components/ui/theme-provider"
 import "./globals.css"
@@ -23,7 +24,15 @@ export default function RootLayout({
           {/* Main Navigation */}
           <header className="w-full bg-white border-b">
             <div className="container mx-auto px-4 flex justify-between items-center h-20">
-              <Link href="/" className="font-bold text-2xl text-[#1F2245]">
+              <Link href="/" className="font-bold text-2xl text-[#1F2245] flex items-center gap-2">
+                <Image
+                  src="/images/logo.png"
+                  alt="Logo S&H Software"
+                  width={80}
+                  height={80}
+                  className="rounded-full"
+                  priority
+                />
                 S&H<span className="text-gray-500">Software</span>
               </Link>
               {/* Desktop Nav */}

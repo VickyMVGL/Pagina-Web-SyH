@@ -1,29 +1,80 @@
+'use client'
+
+import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Award, KeyRound, CheckCircle, Server, HandCoins, ReceiptText, Laptop, Landmark, CircleFadingArrowUp, CircleUserRound} from "lucide-react"
 import { AiOutlineArrowRight as ArrowRightIcon } from "react-icons/ai"
 
+const banners = [
+  {
+    src: "/images/banner.png",
+    alt: "S&H Software Banner 1",
+  },
+  {
+    src: "/images/banner2.jpg",
+    alt: "S&H Software Banner 2",
+  },
+  {
+    src: "/images/banner3.jpg",
+    alt: "S&H Software Banner 3",
+  },
+  {
+    src: "/images/banner4.jpg",
+    alt: "S&H Software Banner 4",
+  },
+  // Agrega más imágenes si lo deseas
+]
+
 export default function Home() {
+  const [current, setCurrent] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % banners.length)
+    }, 4000)
+    return () => clearInterval(interval)
+  }, [])
+
   return (
     <main className="flex-1">
-      {/* Hero Section */}
-      <section className="relative bg-[#1F2245]">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/banner.png"
-            alt="S&H Software Banner"
-            width={1600}
-            height={800}
-            className="object-cover w-full h-full opacity-20"
-            priority
-          />
+      {/* Hero Section - Carrusel con efecto deslizado */}
+      <section className="relative bg-[#1F2245] overflow-hidden">
+        <div className="relative w-full h-[300px] md:h-[450px]">
+          <div
+            className="flex transition-transform duration-700 ease-in-out h-full"
+            style={{ transform: `translateX(-${current * 100}%)` }}
+          >
+            {banners.map((banner, idx) => (
+              <div key={idx} className="w-full flex-shrink-0 h-[300px] md:h-[450px] relative">
+                <Image
+                  src={banner.src}
+                  alt={banner.alt}
+                  fill
+                  className="object-cover w-full h-full opacity-20"
+                  priority={idx === 0}
+                  sizes="100vw"
+                />
+              </div>
+            ))}
+          </div>
+          {/* Indicadores del carrusel */}
+          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 z-20">
+            {banners.map((_, idx) => (
+              <button
+                key={idx}
+                className={`w-3 h-3 rounded-full ${idx === current ? "bg-white" : "bg-white/50"} transition-all`}
+                onClick={() => setCurrent(idx)}
+                aria-label={`Ir al banner ${idx + 1}`}
+              />
+            ))}
+          </div>
         </div>
-        <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
+        <div className="container mx-auto px-4 py-16 md:py-24 relative z-10 -mt-[300px] md:-mt-[450px] flex items-center h-[300px] md:h-[450px]">
           <div className="max-w-3xl text-white">
             <h1 className="text-3xl md:text-5xl font-bold mb-6">Enfocados en ofrecer un sistema personalizado para tu negocio!</h1>
             <p className="text-lg md:text-xl mb-8 text-gray-200">
-              
-S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada segmento de negocio.
+              S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada segmento de negocio.
               Optimiza tu gestión empresarial con un sistema multimoneda, en la nube y 100% adaptable. Controla inventarios, ventas, impuestos y más, todo en un solo lugar.
             </p>
             <Link
@@ -97,7 +148,7 @@ S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada
             <div className="relative flex justify-center items-center">
               <div className="w-full">
                 <Image
-                  src="/images/SYH.jpg"
+                  src="/images/us.png"
                   alt="Sobre S&H Software"
                   width={500}
                   height={500}

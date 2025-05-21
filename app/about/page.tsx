@@ -98,7 +98,7 @@ export default function AboutPage() {
             <div className="relative flex justify-center items-center">
               <div className="w-full">
                 <Image
-                  src="/images/equipo.png"
+                  src="/images/team.jpg"
                   alt="Historia de S&H Software"
                   width={700}
                   height={400}
