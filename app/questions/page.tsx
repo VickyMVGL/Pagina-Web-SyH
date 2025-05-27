@@ -17,13 +17,13 @@ export default function QuestionsPage() {
     {
       question: "¿Está homologado para facturación electrónica con el SENIAT?",
       answer:
-        "Actualmente, estamos en proceso de homologación con el SENIAT y tenemos agenda la segunda revisión para avanzar en esta integración. Mientras tanto, el sistema permite configurar impuestos parametrizables (municipales, nacionales, etc.) y generar facturas tradicionales. Una vez completada la homologación, ofreceremos facturación electrónica con validez legal.",
+        "Actualmente, estamos en proceso de homologación con el SENIAT, ya estamos en la etapa de evalucion del sistema para su pronta homologacion. Mientras tanto, el sistema permite configurar impuestos parametrizables (municipales, nacionales, etc.) y generar facturas tradicionales.",
     },
   ]
 
   const processFaqs = [
     {
-      question: "¿Cual es el proceso de implementación del sistema?",
+      question: "¿Cuál es el proceso de implementación del sistema?",
       answer:
         "Nuestro proceso de implementación está diseñado para garantizar una transición fluida a tu nuevo sistema de gestión. Comienza con una instalación flexible (remota o presencial), seguida de la migración segura de tus datos históricos desde sistemas anteriores como Excel.",
     },
@@ -35,10 +35,10 @@ export default function QuestionsPage() {
     {
       question: "¿Cómo funciona el soporte postventa?",
       answer:
-        "Nuestro soporte postventa está pensado para brindarte tranquilidad y continuidad en el uso del sistema. Durante los primeros 3 meses, ofrecemos asistencia técnica gratuita prioritaria a través de WhatsApp, con respuestas rápidas para resolver dudas técnicas, configuraciones especiales o cualquier inconveniente crítico que pueda surgir. Una vez finalizado este período, puedes optar por soporte técnico adicional a un costo de $30/hora.",
+        "Nuestro soporte postventa está pensado para brindarte tranquilidad y continuidad en el uso del sistema. Durante los primeros 3 meses, ofrecemos asistencia técnica gratuita prioritaria a través de WhatsApp, con respuestas rápidas para resolver dudas técnicas, configuraciones especiales o cualquier inconveniente crítico que pueda surgir. Una vez finalizado este período, puedes optar por soporte técnico adicional por un coste extra.",
     },
     {
-      question: "¿Cuanto tiempo tarla la implementacion del sistema?",
+      question: "¿Cuánto tiempo tarda la implementacion del sistema?",
       answer:
         "El tiempo de implementación varía según la complejidad de tu operación, pero trabajamos para minimizar cualquier interrupción en tu trabajo diario, asegurando que todo esté configurado y funcionando correctamente desde el primer día.",
     },
@@ -71,7 +71,7 @@ export default function QuestionsPage() {
     {
       question: "¿Cuál es el costo inicial del sistema y qué incluye?",
       answer:
-        "El sistema tiene un modelo de suscripción anual, con un costo inicial de $480 + IVA por la licencia del módulo Administrativo (inventario, ventas, CXC). Este precio no incluye instalación ni viáticos (si son requeridos presencialmente). La implementación básica cubre: migración de datos, configuración inicial y capacitación. Los módulos adicionales (Nómina, Contabilidad) o el paquete completo Business tienen costos variables que podemos ajustar según tus necesidades.",
+        "El costo de nuestro software varía según el plan de suscripción elegido y los módulos que desees incluir. Ofrecemos desde una licencia básica con funciones esenciales hasta paquetes completos con todos los módulos integrados (administrativo, nómina y contabilidad), adaptándonos a las necesidades y presupuesto de cada cliente. Los precios cuentan con opciones personalizables según los requerimientos específicos de tu negocio, solo pagas por lo que realmente necesitas, sin sorpresas ni costos ocultos.",
     },
     {
       question: "¿Ofrecen prueba gratuita del sistema?",

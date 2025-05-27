@@ -1,31 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Target, Eye, Award, Clock, MapPin } from "lucide-react"
+import { Target, Eye, Award, Clock} from "lucide-react"
 import { FiArrowRight as ArrowRightIcon } from "react-icons/fi"
 
 export default function AboutPage() {
-  
-
-  const locations = [
-    {
-      city: "Madrid",
-      address: "Calle Gran Vía 28, 28013 Madrid, España",
-      phone: "+34 91 123 4567",
-      email: "madrid@shsoftware.com",
-    },
-    {
-      city: "Barcelona",
-      address: "Avinguda Diagonal 640, 08017 Barcelona, España",
-      phone: "+34 93 123 4567",
-      email: "barcelona@shsoftware.com",
-    },
-    {
-      city: "Ciudad de México",
-      address: "Paseo de la Reforma 222, 06600 Ciudad de México, México",
-      phone: "+52 55 1234 5678",
-      email: "mexico@shsoftware.com",
-    },
-  ]
 
   const timeline = [
     {

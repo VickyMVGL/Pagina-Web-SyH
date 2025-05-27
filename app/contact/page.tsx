@@ -51,7 +51,7 @@ export default function ContactPage() {
   action="https://formsubmit.co/info@syhcomputacion.com"
   method="POST"
 >
-  {/* Puedes agregar este campo oculto para evitar spam */}
+  {/*Campo oculto para evitar spam */}
   <input type="hidden" name="_captcha" value="false" />
   <div className="grid gap-4 sm:grid-cols-2">
                   <div className="space-y-2">
