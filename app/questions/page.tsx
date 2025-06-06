@@ -48,7 +48,7 @@ export default function QuestionsPage() {
     {
       question: "¿Qué tan estable es la aplicación y qué garantías tengo como cliente?",
       answer:
-        "Nuestra aplicación es 100% estable en todas sus versiones y procesos. Llevamos más de 20 años en el mercado, creciendo junto a nuestros clientes y adaptando continuamente nuestras soluciones a sus necesidades. Esta trayectoria garantiza confianza, respaldo técnico y un producto maduro que funciona de forma eficiente en entornos empresariales exigentes.",
+        "Nuestra aplicación es 100% estable en todas sus versiones y procesos. Llevamos más de 20 años en el mercado, creciendo junto a nuestros clientes y adaptando continuamente nuestras soluciones a sus necesidades. Esta trayectoria garantiza confianza, respaldo técnico y un producto que funciona de forma eficiente en entornos empresariales exigentes.",
     },
     {
       question: "¿El sistema es modular? ¿Puedo adquirir solo los módulos que necesite?",
@@ -59,11 +59,6 @@ export default function QuestionsPage() {
       question: "¿Qué funcionalidades ofrece el módulo de Cuentas por Cobrar (CXC)?",
       answer:
         "El módulo de CXC permite gestionar cobros, abonos parciales y estados de cuenta detallados por cliente. Soporta transacciones en multimoneda y ofrece herramientas para conciliación bancaria semiautomática mediante archivos Excel. También integra recordatorios de pago y generación de documentos fiscales, optimizando la gestión de cartera y reduciendo la morosidad.",
-    },
-    {
-      question: "¿Cómo abordan la escalabilidad en sus soluciones?",
-      answer:
-        "Diseñamos nuestras soluciones pensando en la escalabilidad desde el principio. Utilizamos arquitecturas modernas como microservicios, implementamos técnicas de balanceo de carga y caching, y aprovechamos servicios cloud que escalan automáticamente según la demanda. Realizamos pruebas de carga para identificar y resolver cuellos de botella, y optimizamos bases de datos y consultas para mantener un rendimiento óptimo incluso con volúmenes crecientes de datos y usuarios.",
     },
   ]
 

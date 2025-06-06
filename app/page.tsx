@@ -70,16 +70,18 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <div className="container mx-auto px-4 py-16 md:py-24 relative z-10 -mt-[300px] md:-mt-[450px] flex items-center h-[300px] md:h-[450px]">
-          <div className="max-w-3xl text-white">
-            <h1 className="text-3xl md:text-5xl font-bold mb-6">Enfocados en ofrecer un sistema personalizado para tu negocio!</h1>
-            <p className="text-lg md:text-xl mb-8 text-gray-200">
+        <div className="container mx-auto px-4 py-8 md:py-24 relative z-10 -mt-[300px] md:-mt-[450px] flex items-center h-[300px] md:h-[450px]">
+          <div className="max-w-3xl w-full mx-auto text-white bg-[#1F2245]/80 rounded-lg p-4 text-center md:text-left md:bg-transparent md:p-0">
+            <h1 className="text-xl font-bold mb-3 leading-tight md:text-5xl md:mb-4">
+              Enfocados en ofrecer un sistema personalizado para tu negocio!
+            </h1>
+            <p className="text-xs mb-4 text-gray-200 md:text-xl md:mb-6">
               S&H Software ofrece a sus clientes un servicio diferenciado y objetivo para cada segmento de negocio.
               Optimiza tu gestión empresarial con un sistema multimoneda, en la nube y 100% adaptable. Controla inventarios, ventas, impuestos y más, todo en un solo lugar.
             </p>
             <Link
               href="/services"
-              className="inline-block bg-white text-[#1F2245] px-6 py-3 font-medium rounded hover:bg-gray-100 transition-colors"
+              className="inline-block bg-white text-[#1F2245] px-4 py-2 text-sm font-medium rounded hover:bg-gray-100 transition-colors md:px-6 md:py-3 md:text-base"
             >
               Ver Mas
             </Link>
@@ -99,7 +101,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-3">Innovación</h3>
               <p className="text-gray-300">
-                En SYH Computación, la innovación es el motor que impulsa nuestras soluciones. Nos dedicamos a explorar y aplicar tecnologías emergentes para ofrecer herramientas digitales de vanguardia que resuelvan problemas reales.
+                En S&H Computación, la innovación es el motor que impulsa nuestras soluciones. Nos dedicamos a explorar y aplicar tecnologías emergentes para ofrecer herramientas digitales de vanguardia que resuelvan problemas reales.
               </p>
             </div>
             <div className="bg-[#1F2245] text-white p-8 text-center rounded-lg">
@@ -135,10 +137,10 @@ export default function Home() {
             <div>
               <h2 className="text-3xl font-bold text-[#1F2245] mb-4">QUIÉNES SOMOS</h2>
               <p className="text-gray-600 mb-4">
-                En SYH Computación somos un equipo apasionado por la tecnología, dedicado a ofrecer soluciones digitales innovadoras que transforman negocios y simplifican procesos. Con más de dos décadas de experiencia, hemos evolucionado desde un taller de soporte técnico hasta convertirnos en aliados estratégicos para empresas y profesionales, brindando desde desarrollo de software a medida hasta consultoría tecnológica integral.
+                En S&H Computación somos un equipo apasionado por la tecnología, dedicado a ofrecer soluciones digitales innovadoras que transforman negocios y simplifican procesos. Con más de dos décadas de experiencia, hemos evolucionado desde un taller de soporte técnico hasta convertirnos en aliados estratégicos para Empresas y Profesionales, brindando desde un desarrollo de software a la medida, hasta consultoría tecnológica integral.
               </p>
               <p className="text-gray-600 mb-4">
-                Lo que nos distingue es nuestra combinación de expertise técnico y servicio cercano. No solo implementamos sistemas, sino que construimos relaciones de confianza, escuchando las necesidades únicas de cada cliente para ofrecer soluciones personalizadas.
+                Lo que nos distingue es nuestra combinación de experiencia técnica y un servicio cercano. No solo implementamos sistemas, sino que construimos relaciones de confianza, escuchando las necesidades únicas de cada cliente para ofrecer soluciones personalizadas.
               </p>
               <Link href="/about" className="inline-flex items-center text-[#1F2245] font-medium hover:underline">
                 Conozca más sobre nosotros
@@ -339,7 +341,7 @@ export default function Home() {
               {
                 question: "¿Está homologado para facturación electrónica con el SENIAT?",
                 answer:
-                  "Actualmente, estamos en proceso de homologación con el SEMAT y tenemos agenda la segunda revisión para avanzar en esta integración. Mientras tanto, el sistema permite configurar impuestos parametrizables (municipales, nacionales, etc.) y generar facturas tradicionales. Una vez completada la homologación, ofreceremos facturación electrónica con validez legal.",
+                  "Actualmente, estamos en proceso de homologación con el SENIAT y tenemos agenda la segunda revisión para avanzar en esta integración. Mientras tanto, el sistema permite configurar impuestos parametrizables (municipales, nacionales, etc.) y generar facturas tradicionales. Una vez completada la homologación, ofreceremos facturación electrónica con validez legal.",
               },
               {
                 question: "¿Cómo funciona el soporte postventa y la implementación?",

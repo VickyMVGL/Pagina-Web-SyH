@@ -188,7 +188,7 @@ export default function ContactPage() {
                       Oficina Principal:
                       <br />
                       <br />
-                      Conjunto Residencial El Remanso, Manzana D-4 (Dentro del Centro Medico El Remanso)
+                      Av. Principal Qta. Nro 18 Conjunto Residencial El Remanso, Manzana 21-D (Dentro del Centro Medico Profesional El Remanso)
                       <br />
                       <br />
                       San Diego, Carabobo
@@ -219,7 +219,7 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-[#1F2245] mb-4">NUESTRA UBICACIÓN</h3>
                 <div className="aspect-video w-full rounded-lg bg-gray-200 overflow-hidden border border-gray-300">
                   <iframe
-                    title="Ubicación SyH Computación"
+                    title="Ubicación S&H Computación"
                     src="https://www.google.com/maps?q=Conjunto+Residencial+El+Remanso,+Manzana+D-4,+San+Diego,+Carabobo&output=embed"
                     width="100%"
                     height="100%"

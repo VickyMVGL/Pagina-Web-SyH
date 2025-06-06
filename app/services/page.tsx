@@ -106,7 +106,7 @@ export default function ServicesPage() {
     {
       name: "Restaurantes y Cafeterías",
       description:
-        "gestiona comandas, pagos e inventario en un solo sistema integrado que optimiza toda tu operación. ",
+        "Gestiona comandas, pagos e inventario en un solo sistema integrado que optimiza toda tu operación. ",
       icon: <Utensils className="h-8 w-8 text-[#1F2245]" />,
     },
     {
@@ -124,7 +124,7 @@ export default function ServicesPage() {
     {
       name: "Gimnasios y Centros Deportivos",
       description:
-        "Controla todo tu gimnasio en un solo lugar: membresías, programación de clases y seguimiento de pagos. Reduce la morosidad y aumenta la retención con reportes en tiempo real.",
+        "Controla todo tu gimnasio en un solo lugar: membresías, programación de clases y seguimiento de pagos. Reduce la morosidad y aumenta la retención de tus clientes con reportes en tiempo real.",
       icon: <Dumbbell className="h-8 w-8 text-[#1F2245]" />,
     },
     {
@@ -165,13 +165,14 @@ export default function ServicesPage() {
             <h2 className="text-2xl font-bold text-[#1F2245] mb-4">TRANSFORMANDO NEGOCIOS A TRAVÉS DE LA TECNOLOGÍA</h2>
             <p className="text-gray-600 mb-4">
               En S&H Software, entendemos que cada empresa es única, con desafíos y objetivos específicos. Por eso,
-              ofrecemos una amplia gama de servicios tecnológicos personalizables que se adaptan perfectamente a sus
+              ofrecemos una amplia gama de servicios tecnológicos que se adaptan perfectamente a sus
               necesidades particulares.
             </p>
             <p className="text-gray-600">
               Nuestro enfoque se centra en comprender profundamente su negocio para desarrollar soluciones que no solo
               resuelvan problemas actuales, sino que también establezcan las bases para su crecimiento futuro. Con un
-              equipo de expertos apasionados por la tecnología y un compromiso inquebrantable con la calidad, estamos
+              equipo de expertos apasionados por la tecnología y un compromiso inquebrantable con la calidad
+              de nuestros servicios, estamos
               preparados para ayudarle a alcanzar sus objetivos tecnológicos y empresariales.
             </p>
           </div>

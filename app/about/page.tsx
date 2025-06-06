@@ -67,7 +67,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-[#1F2245] mb-6">NUESTRA HISTORIA</h2>
               <p className="text-gray-600 mb-4">
-                SYH Computación nació hace más de una década como un modesto taller de soporte técnico, fundado por un grupo de apasionados por la informática con una visión clara: democratizar el acceso a soluciones tecnológicas confiables. Lo que comenzó como un servicio local de reparación de equipos y asesoría básica, pronto evolucionó gracias a la demanda creciente de transformación digital. Nuestro primer hito fue el desarrollo de un sistema empresarial personalizado para una PYME local, proyecto que marcó el inicio de nuestra especialización en software a medida y nos impulsó a ampliar nuestro portafolio hacia consultoría tecnológica y soluciones integrales.
+                S&H Computación nació hace más de una década como un modesto taller de soporte técnico, fundado por un grupo de apasionados por la informática con una visión clara: democratizar el acceso a soluciones tecnológicas confiables. Lo que comenzó como un servicio local de reparación de equipos y asesoría básica, pronto evolucionó gracias a la demanda creciente de transformación digital. Nuestro primer hito fue el desarrollo de un sistema empresarial personalizado para una PYME local, proyecto que marcó el inicio de nuestra especialización en software a medida y nos impulsó a ampliar nuestro portafolio hacia consultoría tecnológica y soluciones integrales.
               </p>
               <p className="text-gray-600 mb-4">
                 Hoy, somos reconocidos como aliados estratégicos en la digitalización de negocios, pero mantenemos intacto nuestro ADN de empresa cercana. Cada logro, desde implementaciones complejas hasta la creación de nuestra suite modular de software, ha sido posible gracias a relaciones duraderas con clientes que nos han permitido crecer junto a ellos. Nuestra historia es la de una constante adaptación: hemos abrazado tendencias emergentes, superado crisis tecnológicas y ampliado nuestro equipo, siempre guiados por la misión de hacer que la innovación sea tangible para emprendedores y empresas. El futuro nos encuentra preparados para seguir escribiendo este legado, con la misma pasión que tuvimos al reparar aquel primer computador.
@@ -110,7 +110,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-[#1F2245] mb-4 text-center">MISIÓN</h3>
               <p className="text-gray-600 text-center">
-               Ofrecer soluciones tecnológicas innovadoras que impulsen la productividad y el éxito de nuestros clientes a través de servicios personalizados, desde desarrollo de software hasta consultoría tecnológica. Simplificando procesos y potenciando negocios, siempre con un enfoque centrado en las necesidades reales de empresas y profesionales.
+               Ofrecer soluciones tecnológicas innovadoras que impulsen la productividad y el éxito de nuestros clientes a través de servicios personalizados, desde desarrollo de software hasta consultoría tecnológica, siempre con un enfoque centrado en las necesidades reales de Empresas y Profesionales.
               </p>
             </div>
 
@@ -122,7 +122,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-[#1F2245] mb-4 text-center">VISIÓN</h3>
               <p className="text-gray-600 text-center">
-                Visualizamos un futuro donde nuestras soluciones integrales sean sinónimo de excelencia, innovación e impacto positivo en la comunidad empresarial. Aspiramos a ser líderes regionales en transformación digital, reconocidos por nuestra capacidad de combinar tecnología de vanguardia con un servicio humano.
+                Visualizamos un futuro simplificando procesos y potenciando negocios. Aspiramos a ser líderes regionales en transformación digital, reconocidos por nuestra capacidad de combinar tecnología de vanguardia con un servicio humano.
               </p>
             </div>
 
